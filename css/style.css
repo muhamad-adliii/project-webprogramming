@@ -1,0 +1,110 @@
+.box {
+  display: flex;
+  align-items: flex-start;
+  min-width: 684px;
+}
+
+.box .group {
+  position: fixed;
+  width: 684px;
+  z-index: 1;
+  height: 34px;
+  display: flex;
+}
+
+.box .div {
+  width: 694px;
+  height: 34px;
+  display: flex;
+}
+
+.box .text-wrapper {
+  width: 96px;
+  height: 33px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-2 {
+  width: 191px;
+  height: 33px;
+  margin-left: 107px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-3 {
+  margin-top: 1px;
+  width: 82px;
+  height: 33px;
+  margin-left: 18px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-4 {
+  margin-top: 1px;
+  width: 62px;
+  height: 26px;
+  margin-left: 22px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-5 {
+  margin-top: 1px;
+  width: 92px;
+  height: 33px;
+  margin-left: 14px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* original css code is automatically injected above */
+
+.box .div {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.box .text-wrapper a,
+.box .text-wrapper-2 a,
+.box .text-wrapper-3 a,
+.box .text-wrapper-4 a,
+.box .text-wrapper-5 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+
+.box .text-wrapper a:focus-visible,
+.box .text-wrapper-2 a:focus-visible,
+.box .text-wrapper-3 a:focus-visible,
+.box .text-wrapper-4 a:focus-visible,
+.box .text-wrapper-5 a:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
