@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  padding: 2rem 2%;
+  display: flex;
+  gap: 210px;
+  text-transform: capitalize;
+  background-color: #640d14;
+  color: white;
+}
+
+.footer-information{
+    max-width: 230px;
+}
+
+.footer-information h4{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-information p{
+    font-size: 0.8rem;
+}
+
+.footer-about h4{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-about a{
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.about-icon{
+    display: flex;
+    align-items: center;
+}
+
+.about-icon svg{
+    width: 18px;
+    height: 18px;
+}
+
+.footer-keahlian{
+    max-width: 600px;
+}
+
+.footer-keahlian h4{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-keahlian a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.keahlian-icon{
+    display: flex;
+    align-items: center;
+}
+
+.keahlian-icon svg{
+    margin-bottom: 6px;
+    width: 18px;
+    height: 18px;
+}
+
+.footer-maps iframe{
+    border-radius: 5px;
+}
