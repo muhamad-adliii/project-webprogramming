@@ -11,18 +11,80 @@
   content: "";
   inset: 0;
   position: absolute;
-  /* height: 70vh; */
+  height: 70vh;
   background: rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
 
-.hero-card{
-    display: flex;
-    align-items: center;
-    min-width: 500px;
-    flex-direction: row;
+.hero-card {
+  display: flex;
+  gap: 0;
+  margin-top: 250px;
+  padding: 0 4em;
 }
 
-.card-card{
-    
+.card-card {
+  flex: 1;
+  color: var(--color-font);
+  padding: 30px;
+  position: relative;
+  min-height: 260px;
+}
+
+.card-card:nth-child(1) {
+  background: #23395b;
+}
+
+.card-card .card-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.card-title {
+  font-size: 1.3em;
+}
+
+.card-desc {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 1em;
+  margin-bottom: 50px;
+}
+
+.card-card:nth-child(2) {
+  background: #0a2239;
+}
+
+.card-card:nth-child(3) {
+  background: #ad2831;
+}
+
+.sambutan {
+  margin-top: 250px;
+}
+
+/* sambutan */
+.sambutan {
+  padding: 0 5em;
+}
+
+.subtitle-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.85rem;
+}
+
+.line {
+  height: 1.5px;
+  width: 45px;
+  background-color: #c2410c;
+}
+
+.subtitle {
+  color: #c2410c;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
 }
