@@ -1,6 +1,3 @@
-<?php
-include '../components/navbar.html';
-?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -10,6 +7,7 @@ include '../components/navbar.html';
     <title>Formulir Pendaftaran SPMB</title>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/spmb.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 
 <body>
@@ -17,6 +15,9 @@ include '../components/navbar.html';
     <div class="container">
 
         <div class="hero">
+            <?php
+            include '../components/navbar.php';
+            ?>
             <div class="overlay">
                 <div class="badge">SPMB 2026 / 2027</div>
 
@@ -161,5 +162,5 @@ include '../components/navbar.html';
 </html>
 
 <?php
-include '../components/footer.html';
+include '../components/footer.php';
 ?>

@@ -18,7 +18,7 @@
             <p>Email : 10250087@bsi.ac.id</p>
 
             <div class="inf-media">
-                <a href="">
+                <a href="https://www.facebook.com/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-facebook" viewBox="0 0 16 16">
                         <path

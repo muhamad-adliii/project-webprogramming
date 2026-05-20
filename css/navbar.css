@@ -8,8 +8,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position:relative;
-  z-index:9999;
+  position: relative;
+  z-index: 9999;
 }
 
 .navbar-title {
@@ -41,40 +41,40 @@ nav ul li a {
   font-weight: 600;
 }
 
-.profile-icon{
-    display: flex;
-    align-items: center;
+.profile-icon {
+  display: flex;
+  align-items: center;
 }
 
-.profile-icon svg{
-    width: 18px;
-    transform: translateX(-12px);
-    color: var(--color-font);
-    height: 18px;
+.profile-icon svg {
+  width: 18px;
+  transform: translateX(-12px);
+  color: var(--color-font);
+  height: 18px;
 }
 
-.keahlian-icon{
-    display: flex;
-    align-items: center;
+.keahlian-icon {
+  display: flex;
+  align-items: center;
 }
 
-.keahlian-icon svg{
-    width: 18px;
-    transform: translateX(-12px);
-    color: var(--color-font);
-    height: 18px;
+.keahlian-icon svg {
+  width: 18px;
+  transform: translateX(-12px);
+  color: var(--color-font);
+  height: 18px;
 }
 
-.gallery-icon{
-    display: flex;
-    align-items: center;
+.gallery-icon {
+  display: flex;
+  align-items: center;
 }
 
-.gallery-icon svg{
-    width: 18px;
-    transform: translateX(-12px);
-    color: var(--color-font);
-    height: 18px;
+.gallery-icon svg {
+  width: 18px;
+  transform: translateX(-12px);
+  color: var(--color-font);
+  height: 18px;
 }
 
 .nav-daftar a {
@@ -85,94 +85,94 @@ nav ul li a {
   margin-left: 5px;
 }
 
-.nav-daftar a:hover{
-    background:#1e293b;
+.nav-daftar a:hover {
+  background: #1e293b;
 }
 
 /* dropdown */
-.profile-list{
-    position: absolute;
-    background: white;
-    border: 1px solid black;
-    transform: translateX(-50px);
-    border-radius: 10px;
-    min-width: 180px;
-    display: none;
+.profile-list {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  transform: translateX(-50px);
+  border-radius: 10px;
+  min-width: 180px;
+  display: none;
 }
 
-.profile-list li{
-    width: 100%;
+.profile-list li {
+  width: 100%;
 }
 
-.profile-list li a{
-    color: black;
-    padding: 12px;
+.profile-list li a {
+  color: black;
+  padding: 12px;
 }
 
-.profile-list li a:hover{
-    background: #eee;
-    width: 100%;
-    border-radius: 10px;
+.profile-list li a:hover {
+  background: #eee;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .profile-dropdown:hover .profile-list {
-    display: block;
+  display: block;
 }
 
-.keahlian-list{
-    position: absolute;
-    background: white;
-    border: 1px solid black;
-    transform: translateX(-50px);
-    border-radius: 10px;
-    min-width: 180px;
-    display: none;
+.keahlian-list {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  transform: translateX(-50px);
+  border-radius: 10px;
+  min-width: 180px;
+  display: none;
 }
 
-.keahlian-list li{
-    width: 100%;
+.keahlian-list li {
+  width: 100%;
 }
 
-.keahlian-list li a{
-    color: black;
-    padding: 12px;
+.keahlian-list li a {
+  color: black;
+  padding: 12px;
 }
 
-.keahlian-list li a:hover{
-    background: #eee;
-    width: 100%;
-    border-radius: 10px;
+.keahlian-list li a:hover {
+  background: #eee;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .keahlian-dropdown:hover .keahlian-list {
-    display: block;
+  display: block;
 }
 
-.gallery-list{
-    position: absolute;
-    background: white;
-    border: 1px solid black;
-    transform: translateX(-50px);
-    border-radius: 10px;
-    min-width: 180px;
-    display: none;
+.gallery-list {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  transform: translateX(-50px);
+  border-radius: 10px;
+  min-width: 180px;
+  display: none;
 }
 
-.gallery-list li{
-    width: 100%;
+.gallery-list li {
+  width: 100%;
 }
 
-.gallery-list li a{
-    color: black;
-    padding: 12px;
+.gallery-list li a {
+  color: black;
+  padding: 12px;
 }
 
-.gallery-list li a:hover{
-    background: #eee;
-    width: 100%;
-    border-radius: 10px;
+.gallery-list li a:hover {
+  background: #eee;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .gallery-dropdown:hover .gallery-list {
-    display: block;
+  display: block;
 }
