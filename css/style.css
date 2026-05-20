@@ -59,19 +59,23 @@
   background: #ad2831;
 }
 
-.sambutan {
-  margin-top: 250px;
-}
-
 /* sambutan */
 .sambutan {
+  margin-top: 300px;
+  display: flex;
   padding: 0 5em;
+}
+
+.sambutan-desc {
+  display: flex;
+  max-width: 830px;
+  flex-direction: column;
 }
 
 .subtitle-container {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  gap: 10;
   gap: 0.85rem;
 }
 
@@ -87,4 +91,152 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.85rem;
+}
+
+.title h4 {
+  margin-top: 10px;
+  font-family: "Handlee", cursive;
+  font-size: 3em;
+  font-weight: 200;
+  color: var(--secondary-color);
+}
+
+.container-desc {
+  margin-top: 2px;
+}
+
+.container-desc p {
+  text-align: justify;
+  color: #646464;
+}
+
+.container-footer {
+  margin-top: 20px;
+}
+
+.container-footer h4 {
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.information {
+  padding: 2rem 13%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-font);
+  margin-top: 120px;
+}
+
+.inf-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.inf-card svg {
+  width: 60px;
+  height: 60px;
+}
+
+/* program keahlian */
+.keahlian {
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.keahlian-title {
+  text-align: center;
+}
+
+.keahlian-title h3 {
+  /* text-align: center; */
+  text-transform: capitalize;
+  font-size: 2em;
+  color: var(--secondary-color);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.keahlian-title h3::after {
+  content: " ";
+  position: absolute;
+  left: 10%;
+  bottom: -6px;
+  width: 80%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.keahlian-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.keahlian-card {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.keahlian-card h4 {
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  font-size: 1.2em;
+}
+
+.keahlian-card span {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 50px;
+}
+
+/* berita */
+.berita {
+  padding: 20px;
+}
+
+.berita-title {
+  text-align: center;
+}
+
+.berita-title h4 {
+  text-transform: capitalize;
+  font-size: 2em;
+  color: var(--secondary-color);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin-top: 90px;
+}
+
+.berita-title h4::after {
+  content: " ";
+  position: absolute;
+  left: 10%;
+  bottom: -6px;
+  width: 80%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.berita-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.berita-card {
+  padding: 20px;
 }
