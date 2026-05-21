@@ -2,10 +2,10 @@
 .hero-banner {
   width: 100%;
   height: 70vh;
-  position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../images/mainschool.jpeg");
+  background-image: url("../images/secondschool.jpeg");
 }
 
 .hero-banner::before {
