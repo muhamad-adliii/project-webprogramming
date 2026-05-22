@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>berita</title>
-    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="/project-webprogramming/css/global.css">
     <link rel="stylesheet" href="../css/berita.css">
     <link rel="stylesheet" href="../css/navbar.css">
 </head>
@@ -13,13 +13,10 @@
 <body>
     <section class="hero-banner">
         <?php
-    include '../components/navbar.php';
-    ?>
+        include '../components/navbar.php';
+        ?>
     </section>
-
-
     <main class="container">
-
         <div class="page-title-section">
             <div class="subtitle-container">
                 <span class="line"></span>
@@ -30,7 +27,6 @@
         </div>
 
         <div class="news-grid">
-
             <div class="card">
                 <div class="card-img-container">
                     <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600"
@@ -151,9 +147,9 @@
 
     </main>
 
-    <?php 
+    <?php
     include "../components/footer.php"
-    ?>
+        ?>
 
 </body>
 

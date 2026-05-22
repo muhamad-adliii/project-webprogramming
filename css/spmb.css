@@ -1,136 +1,153 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:var(--main-font);
-    scrollbar-width: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  scrollbar-width: none;
 }
 
-body{
-    background:#f5f5f5;
+body {
+  background: #f5f5f5;
 }
 
-.container{
-    width:100%;
-    overflow:visible;
+.container {
+  width: 100%;
+  overflow: visible;
 }
 
-.hero{
-    background:url('https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=2070&auto=format&fit=crop') center center/cover;
-    width:100%;
-    height:100vh;
-    position:relative;
-    overflow:visible;
+.hero {
+  background: url("https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=2070&auto=format&fit=crop")
+    center center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: visible;
 }
 
-.overlay{
-    width:100%;
-    height: 87.5%;
-    background:rgba(0,0,0,0.45);
-    padding:60px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+.overlay {
+  width: 100%;
+  height: 87.5%;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.badge{
-    background:var(--accent-color-one);
-    color:white;
-    padding:10px 20px;
-    border-radius:30px;
-    font-size:18px;
-    font-weight:bold;
-    width:max-content;
-    margin-bottom:20px;
+.badge {
+  background: var(--accent-color-one);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  width: max-content;
+  margin-bottom: 20px;
 }
 
-.hero h1{
-    color:white;
-    font-size:64px;
-    margin-bottom:15px;
-    font-weight:700;
+.hero h1 {
+  color: white;
+  font-size: 64px;
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
-.hero p{
-    color:white;
-    font-size:20px;
-    max-width:800px;
-    line-height:1.6;
+.hero p {
+  color: white;
+  font-size: 20px;
+  max-width: 800px;
+  line-height: 1.6;
 }
 
-.card{
-    background:white;
-    padding:25px;
-    margin:50px auto;
-    border-radius:12px;
-    max-width:1000px;
+.card {
+  background: white;
+  padding: 25px;
+  margin: 50px auto;
+  border-radius: 12px;
+  max-width: 1000px;
 }
 
-.card h2{
-    margin-bottom:20px;
-    color:#1e293b;
+.card h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:15px;
-    margin-bottom:15px;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
-label{
-    display:block;
-    margin-bottom:5px;
-    font-size:14px;
-    font-weight:bold;
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 input,
 select,
-textarea{
-    width:100%;
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:6px;
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-textarea{
-    resize:none;
-    height:90px;
+textarea {
+  resize: none;
+  height: 90px;
 }
 
-button{
-    background:var(--accent-color-one);
-    color:white;
-    border:none;
-    padding:14px 24px;
-    border-radius:6px;
-    cursor:pointer;
+button {
+  background: var(--accent-color-one);
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-button:hover{
-    background:#1e293b;
+button:hover {
+  background: #1e293b;
 }
 
-@media(max-width:768px){
+.card:nth-child(4) {
+  margin-bottom: 50px;
+}
 
-    .overlay{
-        padding:30px;
-    }
+.card:nth-child(4) h3 {
+  /* margin-bottom: 1px; */
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
 
-    .hero h1{
-        font-size:38px;
-    }
+.card:nth-child(4) p {
+  margin-bottom: 20px;
+  color: #797676;
+  font-size: 1rem;
+}
 
-    .hero p{
-        font-size:16px;
-    }
+@media (max-width: 768px) {
+  .overlay {
+    padding: 30px;
+  }
 
-    .grid{
-        grid-template-columns:1fr;
-    }
+  .hero h1 {
+    font-size: 38px;
+  }
 
-    .badge{
-        font-size:14px;
-    }
+  .hero p {
+    font-size: 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .badge {
+    font-size: 14px;
+  }
 }

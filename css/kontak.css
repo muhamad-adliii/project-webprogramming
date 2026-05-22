@@ -35,9 +35,10 @@
 
 .section-title h2 {
   color: #1a2a40;
-  font-size: 2rem;
+  font-size: 2.8rem;
   margin-top: 5px;
-  font-family: "Georgia", serif; /* Bikin vibes ala Hogwarts */
+  font-weight: 400;
+  font-family: "Handlee", cursive;
 }
 
 .contact-container {

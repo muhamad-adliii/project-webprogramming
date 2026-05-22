@@ -11,30 +11,23 @@
 </head>
 
 <body>
-
     <div class="container">
-
         <div class="hero">
             <?php
             include '../components/navbar.php';
             ?>
             <div class="overlay">
                 <div class="badge">SPMB 2026 / 2027</div>
-
                 <h1>Formulir Pendaftaran SPMB</h1>
-
                 <p>
                     Isi data calon peserta didik baru dengan benar.
                     Field bertanda * wajib diisi.
                 </p>
             </div>
         </div>
-
         <form action="cetak_spmb.php" method="POST">
-
             <div class="card">
                 <h2>Data Sekolah Asal</h2>
-
                 <div class="grid">
                     <div>
                         <label>Asal Sekolah *</label>
@@ -44,7 +37,6 @@
                             <option>SMP Swasta</option>
                         </select>
                     </div>
-
                     <div>
                         <!-- buat tahun lulus 5 tahun terakhir -->
                         <?php
@@ -148,15 +140,14 @@
                     <textarea name="alamat_ortu" required></textarea>
                 </div>
             </div>
-
             <div class="card">
+                <h3>Kirim Formulir</h3>
+                <p>Pastikan semua data sudah benar. Setelah menekan tombol kirim, data akan dikirim ke spreadsheet resmi
+                    SPMB</p>
                 <button type="submit">Kirim Formulir</button>
             </div>
-
         </form>
-
     </div>
-
 </body>
 
 </html>

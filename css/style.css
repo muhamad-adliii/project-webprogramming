@@ -21,6 +21,7 @@
   gap: 0;
   margin-top: 250px;
   padding: 0 4em;
+  z-index: 4;
 }
 
 .card-card {
