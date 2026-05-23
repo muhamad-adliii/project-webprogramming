@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="./images/logo-sekolah2.0.png" type="image/x-icon">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -72,7 +75,7 @@
             </div>
     </section>
 
-    <section class="sambutan">
+    <section class="sambutan" data-aos="fade-up" data-aos-duration="1500" data-delay="100">
         <div class="sambutan-img">
             <img src="./images/bapa-removebg-preview.png" alt="">
         </div>
@@ -117,7 +120,7 @@
         </div>
     </section>
 
-    <section class="information">
+    <section class="information" data-aos="fade-up" data-aos-duration="1500" data-delay="100">
         <div class="inf-card">
             <svg xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
@@ -156,7 +159,7 @@
         </div>
     </section>
 
-    <section class="keahlian">
+    <section class="keahlian" data-aos="fade-up" data-aos-duration="1500" data-delay="100">
         <div class="keahlian-title">
             <h3>Program Keahlian</h3>
         </div>
@@ -191,7 +194,7 @@
         </div>
     </section>
 
-    <section class="berita">
+    <section class="berita" data-aos="fade-up" data-aos-duration="1500" data-delay="100">
         <div class="berita-title">
             <h3>Berita Terbaru</h3>
         </div>
@@ -227,10 +230,13 @@
             </div>
         </div>
     </section>
-
     <?php
     include "./components/footer.php"
         ?>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

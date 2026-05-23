@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../css/jurusan.css">
     <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="shortcut icon" href="../../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
@@ -17,9 +18,7 @@
     ?>
 
     <!-- HERO -->
-    <section
-        class="hero"
-        style="background-image: url('../../images/secondschool.jpeg');">
+    <section class="hero" style="background-image: url('../../images/secondschool.jpeg');">
     </section>
 
     <!-- CONTENT -->
@@ -42,19 +41,14 @@
             <!-- LOGO -->
             <div class="logo-box">
 
-                <img
-                    src="../../images/logo-tkj.png"
-                    alt="TKJ">
+                <img src="../../images/logo-tkj.png" alt="TKJ">
 
             </div>
 
             <!-- TEXT -->
             <div class="text-box">
 
-                <img
-                    class="banner"
-                    src="../../images/secondschool.jpeg"
-                    alt="TKJ">
+                <img class="banner" src="../../images/secondschool.jpeg" alt="TKJ">
 
                 <p>
                     Teknik Komputer & Jaringan adalah jurusan yang mengajarkan siswa tentang pemrograman,

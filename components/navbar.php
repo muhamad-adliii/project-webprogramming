@@ -7,12 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
     <nav>
         <div class="navbar-title">
-            <img src="/project-webprogramming/images/logo-sekolah.png" alt="">
+            <img src="/project-webprogramming/images/logo-sekolah2.0.png" alt="">
             <h3>hogwarts School</h3>
         </div>
         <ul>

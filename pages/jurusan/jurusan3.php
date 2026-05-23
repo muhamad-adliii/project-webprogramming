@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../css/jurusan.css">
     <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="shortcut icon" href="../../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
@@ -17,9 +18,7 @@
     ?>
 
     <!-- HERO -->
-    <section
-        class="hero"
-        style="background-image: url('../../images/secondschool.jpeg');">
+    <section class="hero" style="background-image: url('../../images/secondschool.jpeg');">
     </section>
 
     <!-- CONTENT -->
@@ -42,22 +41,18 @@
             <!-- LOGO -->
             <div class="logo-box">
 
-                <img
-                    src="../../images/logo-tei.png"
-                    alt="TEI">
+                <img src="../../images/logo-tei.png" alt="TEI">
 
             </div>
 
             <!-- TEXT -->
             <div class="text-box">
 
-                <img
-                    class="banner"
-                    src="../../images/secondschool.jpeg"
-                    alt="TEI">
+                <img class="banner" src="../../images/secondschool.jpeg" alt="TEI">
 
                 <p>
-                    Teknik Elektronika Industri adalah jurusan yang mengajarkan siswa tentang elektronika, sistem kontrol, dan teknologi industri.
+                    Teknik Elektronika Industri adalah jurusan yang mengajarkan siswa tentang elektronika, sistem
+                    kontrol, dan teknologi industri.
                     Jurusan ini siapkan siswa untuk karier di bidang teknologi elektronika dan industri.
                 </p>
 

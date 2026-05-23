@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/project-webprogramming/css/global.css">
     <link rel="stylesheet" href="../css/berita.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
