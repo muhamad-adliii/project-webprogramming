@@ -7,16 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
     <nav>
         <div class="navbar-title">
-            <img src="../images/logo hogwarts-jukebox-bg-removed.png" alt="">
+            <img src="/project-webprogramming/images/logo-sekolah2.0.png" alt="">
             <h3>hogwarts School</h3>
         </div>
         <ul>
-            <li><a href="">Beranda</a></li>
+            <li><a href="/project-webprogramming/index.php">Beranda</a></li>
             <li class="profile-dropdown">
                 <div class="profile-icon">
                     <a href="">Profile</a>
@@ -27,8 +28,8 @@
                 </div>
 
                 <ul class="profile-list">
-                    <li><a href="">Visi & Misi</a></li>
-                    <li><a href="">Ekstrakurikuler</a></li>
+                    <li><a href="/project-webprogramming/pages/profile/visi-misi.php">Visi & Misi</a></li>
+                    <li><a href="/project-webprogramming/pages/profile/ekstrakurikuler.php">Ekstrakurikuler</a></li>
                 </ul>
             </li>
             <li class="keahlian-dropdown">
@@ -41,9 +42,10 @@
                 </div>
 
                 <ul class="keahlian-list">
-                    <li><a href="">Rekayas Perangkat Lunak</a></li>
-                    <li><a href="">Teknik Komputer & Jaringan</a></li>
-                    <li><a href="">Teknik Elektronika Industri</a></li>
+                    <li><a href="/project-webprogramming/pages/jurusan/jurusan1.php">Rekayasa Perangkat Lunak</a></li>
+                    <li><a href="/project-webprogramming/pages/jurusan/jurusan2.php">Teknik Komputer & Jaringan</a></li>
+                    <li><a href="/project-webprogramming/pages/jurusan/jurusan3.php">Teknik Elektronika Industri</a>
+                    </li>
                 </ul>
             </li>
             <li class="gallery-dropdown">
@@ -56,13 +58,13 @@
                 </div>
 
                 <ul class="gallery-list">
-                    <li><a href="">Fasilitas</a></li>
-                    <li><a href="">Prestasi</a></li>
+                    <li><a href="/project-webprogramming/pages/gallery/fasilitas.php">Fasilitas</a></li>
+                    <li><a href="/project-webprogramming/pages/gallery/prestasi.php">Prestasi</a></li>
                 </ul>
             </li>
-            <li><a href="">Berita</a></li>
-            <li><a href="">Kontak</a></li>
-            <li class="nav-daftar"><a href="">Pendaftaran</a></li>
+            <li><a href="/project-webprogramming/pages/berita.php">Berita</a></li>
+            <li><a href="/project-webprogramming/pages/kontak.php">Kontak</a></li>
+            <li class="nav-daftar"><a href="/project-webprogramming/pages/spmb.php">Pendaftaran</a></li>
         </ul>
     </nav>
 </body>

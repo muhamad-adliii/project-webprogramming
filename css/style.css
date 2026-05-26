@@ -1,0 +1,328 @@
+.hero {
+  background-image: url("../images/mainschool.jpeg");
+  width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.hero-card {
+  display: flex;
+  gap: 0;
+  margin-top: 250px;
+  padding: 0 4em;
+  z-index: 4;
+}
+
+.card-card {
+  flex: 1;
+  color: var(--color-font);
+  padding: 30px;
+  position: relative;
+  min-height: 260px;
+}
+
+.card-card:nth-child(1) {
+  background: rgba(35, 57, 91, 20);
+}
+
+.card-card .card-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.card-title {
+  font-size: 1.3em;
+}
+
+.card-desc {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 1em;
+  margin-bottom: 50px;
+}
+
+.card-card:nth-child(2) {
+  background: #0a2239;
+}
+
+.card-card:nth-child(3) {
+  background: #ad2831;
+}
+
+/* sambutan */
+.sambutan {
+  margin-top: 300px;
+  display: flex;
+  padding: 0 5em;
+}
+
+.sambutan-desc {
+  display: flex;
+  max-width: 830px;
+  flex-direction: column;
+}
+
+.subtitle-container {
+  display: flex;
+  align-items: center;
+  gap: 10;
+  gap: 0.85rem;
+}
+
+.line {
+  height: 1.5px;
+  width: 45px;
+  background-color: #c2410c;
+}
+
+.subtitle {
+  color: #c2410c;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+}
+
+.title h4 {
+  margin-top: 10px;
+  font-family: "Handlee", cursive;
+  font-size: 3em;
+  font-weight: 200;
+  color: var(--secondary-color);
+}
+
+.container-desc {
+  margin-top: 2px;
+}
+
+.container-desc p {
+  text-align: justify;
+  color: #646464;
+}
+
+.container-footer {
+  margin-top: 20px;
+}
+
+.container-footer h4 {
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.information {
+  padding: 2rem 13%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-font);
+  margin-top: 120px;
+}
+
+.inf-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.inf-card svg {
+  width: 60px;
+  height: 60px;
+}
+
+/* program keahlian */
+.keahlian {
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.keahlian-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.keahlian-title h3 {
+  text-transform: capitalize;
+  font-size: 2em;
+  color: var(--secondary-color);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.keahlian-title h3::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  width: 60%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.keahlian-container {
+  display: flex;
+  gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keahlian-card {
+  flex: 1;
+  /* min-width: 300px; */
+  /* max-width: 380px; */
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.keahlian-logo {
+  width: 11rem;
+  height: 10.5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin: 0 auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keahlian-logo img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.keahlian-card h4 {
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  font-size: 1.1em;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+  margin: 0 0 20px 0;
+}
+
+.keahlian-card h4::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  width: 60%;
+  height: 1px;
+  background-color: var(--primary-color);
+}
+
+.keahlian-card p {
+  font-size: 0.95em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* berita */
+.berita {
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.berita-title {
+  text-align: center;
+}
+
+.berita-title h3 {
+  text-transform: capitalize;
+  font-size: 2em;
+  color: var(--secondary-color);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.berita-title h3::after {
+  content: " ";
+  position: absolute;
+  left: 20%;
+  bottom: -10px;
+  width: 60%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.berita-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.berita-card {
+  background-color: #bd2a33;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 280px;
+  color: #ffffff;
+}
+
+.berita-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.berita-card h3 {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.berita-card span {
+  font-size: 0.85em;
+  line-height: 1.6;
+  text-align: justify;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.berita-card .selengkapnya {
+  font-size: 0.85em;
+  color: #ffffff;
+  text-decoration: none;
+  align-self: flex-start;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.berita-card .selengkapnya:hover {
+  text-decoration: underline;
+  opacity: 1;
+}

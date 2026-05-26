@@ -1,0 +1,171 @@
+/* --- HERO BANNER --- */
+.hero-banner {
+  width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/secondschool.jpeg");
+}
+
+.hero-banner::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4) contrast(1.1);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+}
+
+/* --- LAYOUT UTAMA --- */
+.container {
+  /* max-width: 1500px; */
+  /* margin: 0 auto; */
+  padding: 3.5rem 1.2rem;
+}
+
+.page-title-section {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.subtitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.line {
+  height: 1.5px;
+  width: 45px;
+  background-color: #c2410c;
+}
+
+.subtitle {
+  color: #c2410c;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+}
+
+.main-title {
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  font-family: "Handlee", cursive;
+}
+
+/* --- BLOG NEWS GRID --- */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.m-top-8 {
+  margin-top: 2.5rem;
+}
+
+/* Gaya Card Mirip Persis Mockup */
+.card {
+  background-color: var(--primary-color);
+  border: 4px solid var(--border-bright-maroon); /* Border tebal merah */
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  height: 555px;
+}
+
+.card-img-container {
+  height: 285px;
+  overflow: hidden;
+  border-bottom: 4px solid var(--border-bright-maroon);
+}
+
+.card-img {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color-font);
+  font-family: "Poppins", sans-serif;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: justify;
+  line-height: 1.6;
+  opacity: 0.95;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.btn-more {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-white);
+  text-decoration: none;
+  margin-top: 1.25rem;
+  display: inline-block;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.btn-more:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .main-title {
+    font-size: 2.2rem;
+  }
+}
