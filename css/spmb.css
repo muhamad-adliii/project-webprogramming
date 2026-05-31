@@ -161,3 +161,7 @@ button:hover {
     font-size: 14px;
   }
 }
+
+span {
+  color: red;
+}
