@@ -1,16 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jurusan</title>
-      <link rel="stylesheet" href="../../css/global.css">
-    <link rel="stylesheet" href="../../css/spmb.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/jurusan.css">
     <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="shortcut icon" href="../../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
+
 <body>
     <?php
     include '../../components/navbar.php';
     ?>
+    <!-- HERO -->
+    <section class="hero" style="background-image: url('../../images/secondschool.jpeg');">
+    </section>
+
+    <!-- CONTENT -->
+    <section class="content">
+
+        <div class="title-box">
+
+            <div class="line"></div>
+
+            <span>Hogwarts School</span>
+
+            <div class="line"></div>
+
+        </div>
+
+        <h1>REKAYASA PERANGKAT LUNAK</h1>
+
+        <div class="wrapper">
+
+            <!-- LOGO -->
+            <div class="logo-box">
+
+                <img src="../../images/logo-rpl.png" alt="RPL">
+
+            </div>
+
+            <!-- TEXT -->
+            <div class="text-box">
+
+                <img class="banner" src="../../images/secondschool.jpeg" alt="RPL">
+
+                <p>
+                    Rekayasa Perangkat Lunak (RPL) adalah jurusan yang mengajarkan siswa tentang pemrograman, pembuatan aplikasi, pengembangan software, dan sistem informasi. Jurusan ini menyiapkan siswa untuk karier di bidang teknologi informasi, khususnya sebagai developer atau programmer.
+                </p>
+
+                <p>
+                    Banyak siswa hebat berasal dari jurusan ini. Siswa Rekayasa Perangkat Lunak dikenal memiliki tekad kuat dan selalu berusaha mencapai tujuan mereka dengan penuh keyakinan.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <?php
+    include '../../components/footer.php';
+    ?>
 </body>
+
 </html>

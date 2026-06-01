@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../css/global.css">
-    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
     <nav>
         <div class="navbar-title">
-            <img src="/project-webprogramming/images/logo hogwarts-jukebox-bg-removed.png" alt="">
+            <img src="/project-webprogramming/images/logo-sekolah2.0.png" alt="">
             <h3>hogwarts School</h3>
         </div>
         <ul>

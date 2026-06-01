@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../../css/global.css">
     <link rel="stylesheet" href="../../css/spmb.css">
     <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="shortcut icon" href="../../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
-<?php
+    <?php
     include '../../components/navbar.php';
     ?>
 </body>
