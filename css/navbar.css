@@ -59,6 +59,8 @@ nav ul li a {
 }
 
 .keahlian-icon svg {
+  margin: 0 !important;
+  padding:0 !important;
   width: 18px;
   transform: translateX(-12px);
   color: var(--color-font);

@@ -115,7 +115,7 @@
             </div>
             <div class="container-footer">
                 <h4>KH. Albus Dumbledore, M.Pd.</h4>
-                <h4>Kepala Sekolah Hogwarts School</h4>
+                <h4>Kepala Sekolah SMK Genesis Teknologi</h4>
             </div>
         </div>
     </section>

@@ -21,10 +21,10 @@
         <div class="page-title-section">
             <div class="subtitle-container">
                 <span class="line"></span>
-                <span class="subtitle">Hogwarts School</span>
+                <span class="subtitle">SMK Genesis Teknologi</span>
                 <span class="line"></span>
             </div>
-            <h1 class="magic-font main-title">Berita Terbaru</h1>
+            <h2 class="magic-font main-title">Berita Terbaru</h2>
         </div>
 
         <div class="news-grid">

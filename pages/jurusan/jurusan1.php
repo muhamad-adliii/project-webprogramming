@@ -22,19 +22,12 @@
 
     <!-- CONTENT -->
     <section class="content">
-
-        <div class="title-box">
-
-            <div class="line"></div>
-
-            <span>Hogwarts School</span>
-
-            <div class="line"></div>
-
+        <div class="subtitle-container">
+            <span class="line"></span>
+            <span class="subtitle">SMK Genesis Teknologi</span>
+            <span class="line"></span>
         </div>
-
-        <h1>REKAYASA PERANGKAT LUNAK</h1>
-
+        <h1>Rekayasa Perangkat Lunak</h1>
         <div class="wrapper">
 
             <!-- LOGO -->
@@ -50,11 +43,14 @@
                 <img class="banner" src="../../images/secondschool.jpeg" alt="RPL">
 
                 <p>
-                    Rekayasa Perangkat Lunak (RPL) adalah jurusan yang mengajarkan siswa tentang pemrograman, pembuatan aplikasi, pengembangan software, dan sistem informasi. Jurusan ini menyiapkan siswa untuk karier di bidang teknologi informasi, khususnya sebagai developer atau programmer.
+                    Rekayasa Perangkat Lunak (RPL) adalah jurusan yang mengajarkan siswa tentang pemrograman, pembuatan
+                    aplikasi, pengembangan software, dan sistem informasi. Jurusan ini menyiapkan siswa untuk karier di
+                    bidang teknologi informasi, khususnya sebagai developer atau programmer.
                 </p>
 
                 <p>
-                    Banyak siswa hebat berasal dari jurusan ini. Siswa Rekayasa Perangkat Lunak dikenal memiliki tekad kuat dan selalu berusaha mencapai tujuan mereka dengan penuh keyakinan.
+                    Banyak siswa hebat berasal dari jurusan ini. Siswa Rekayasa Perangkat Lunak dikenal memiliki tekad
+                    kuat dan selalu berusaha mencapai tujuan mereka dengan penuh keyakinan.
                 </p>
 
             </div>

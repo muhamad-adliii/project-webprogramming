@@ -14,20 +14,24 @@
 
 <body>
     <section class="hero-section">
-    <?php
-    include '../../components/navbar.php';
-    ?>
+        <?php
+        include '../../components/navbar.php';
+        ?>
 
     </section>
     <main class="facility-section">
         <div class="facility-title">
-            <p class="subtitle">- Hogwarts School -</p>
+            <div class="subtitle-container">
+                <span class="line"></span>
+                <span class="subtitle">SMK Genesis Teknologi</span>
+                <span class="line"></span>
+            </div>
             <h2>Fasilitas Sekolah</h2>
         </div>
         <div class="facility-grid">
             <div class="facility-card">
                 <div class="facility-img">
-                <img src="../../images/perpus.jpg" alt="">
+                    <img src="../../images/perpus.jpg" alt="">
                 </div>
                 <div class="facility-info">
                     <h3>Perpustakaan</h3>
@@ -35,7 +39,7 @@
             </div>
             <div class="facility-card">
                 <div class="facility-img">
-                <img src="../../images/ruang.jpg" alt="">
+                    <img src="../../images/ruang.jpg" alt="">
                 </div>
                 <div class="facility-info">
                     <h3>Ruang Kelas</h3>
@@ -43,7 +47,7 @@
             </div>
             <div class="facility-card">
                 <div class="facility-img">
-                <img src="../../images/hall.jpg" alt="">
+                    <img src="../../images/hall.jpg" alt="">
                 </div>
                 <div class="facility-info">
                     <h3>Aula Sekolah</h3>
@@ -51,7 +55,7 @@
             </div>
             <div class="facility-card">
                 <div class="facility-img">
-                <img src="../../images/lab.jpg" alt="">
+                    <img src="../../images/lab.jpg" alt="">
                 </div>
                 <div class="facility-info">
                     <h3>Lab Komputer</h3>
@@ -59,7 +63,7 @@
             </div>
             <div class="facility-card">
                 <div class="facility-img">
-                <img src="../../images/lapangan.jpg" alt="">
+                    <img src="../../images/lapangan.jpg" alt="">
                 </div>
                 <div class="facility-info">
                     <h3>Lapangan Sekolah</h3>
@@ -67,13 +71,13 @@
             </div>
             <div class="facility-card">
                 <div class="facility-img">
-                <img src="../../images/locker.jpg" alt="">
+                    <img src="../../images/locker.jpg" alt="">
                 </div>
                 <div class="facility-info">
                     <h3>Ruang Ganti</h3>
                 </div>
             </div>
-   
+
 
         </div>
     </main>

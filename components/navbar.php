@@ -14,7 +14,7 @@
     <nav>
         <div class="navbar-title">
             <img src="/project-webprogramming/images/logo-sekolah2.0.png" alt="">
-            <h3>hogwarts School</h3>
+            <h3>SMK Genesis Teknologi</h3>
         </div>
         <ul>
             <li><a href="/project-webprogramming/index.php">Beranda</a></li>

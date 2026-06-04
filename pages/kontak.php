@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <section class="hero-section">
         <?php
         include '../components/navbar.php';
@@ -22,7 +21,11 @@
 
     <main class="contact-section">
         <div class="section-title">
-            <p class="subtitle">— Hogwarts School —</p>
+            <div class="subtitle-container">
+                <span class="line"></span>
+                <span class="subtitle">SMK Genesis Teknologi</span>
+                <span class="line"></span>
+            </div>
             <h2>Kontak Kami</h2>
         </div>
 
