@@ -221,6 +221,22 @@
   background: #dc3545;
 }
 
+.eskul-badge.badge-softskill {
+  background: #ffc107;
+}
+
+.eskul-badge.badge-seni {
+  background: #e83e8c;
+}
+
+.eskul-badge.badge-science {
+  background: #17a2b8;
+}
+
+.eskul-badge.badge-bahasa {
+  background: #6f42c1;
+}
+
 .card-body {
   padding: 25px;
 }

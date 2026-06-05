@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/global.css">
     <link rel="stylesheet" href="../../css/eskul.css">
     <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
     <link rel="shortcut icon" href="../../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
@@ -191,11 +192,11 @@
             <div class="eskul-card olahraga">
                 <div class="card-header">
                     <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fd7d11f05_1766129021.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
+                        alt="Ekstrakurikuler Badminton">
                     <span class="eskul-badge badge-olahraga">olahraga</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler Badminton</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -234,11 +235,11 @@
             <div class="eskul-card olahraga">
                 <div class="card-header">
                     <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fd42aa8b2_1766128962.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
+                        alt="Ekstrakurikuler Basket">
                     <span class="eskul-badge badge-olahraga">olahraga</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler Basket</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -277,11 +278,11 @@
             <div class="eskul-card olahraga">
                 <div class="card-header">
                     <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fd11822e5_1766128913.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
+                        alt="Ekstrakurikuler Bola Voli">
                     <span class="eskul-badge badge-olahraga">olahraga</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler Bola Voli</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -320,11 +321,11 @@
             <div class="eskul-card olahraga">
                 <div class="card-header">
                     <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fc9490312_1766128788.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
+                        alt="Ekstrakurikuler futsal">
                     <span class="eskul-badge badge-olahraga">olahraga</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler futsal</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -363,11 +364,11 @@
             <div class="eskul-card olahraga">
                 <div class="card-header">
                     <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944f4cad1786_1766126794.png"
-                        alt="Ekstrakurikuler marawis dan hadroh">
+                        alt="Ekstrakurikuler paskibra">
                     <span class="eskul-badge badge-olahraga">olahraga</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler paskibra</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -406,11 +407,11 @@
             <div class="eskul-card olahraga">
                 <div class="card-header">
                     <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fc5642d6a_1766128726.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
+                        alt="Ekstrakurikuler karate">
                     <span class="eskul-badge badge-olahraga">olahraga</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler karate</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -447,14 +448,15 @@
                 </div>
             </div>
             <!-- softskill -->
-            <div class="eskul-card olahraga">
+            <div class="eskul-card softskill">
                 <div class="card-header">
-                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fc5642d6a_1766128726.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
-                    <span class="eskul-badge badge-olahraga">olahraga</span>
+                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944f76d95ded_1766127469.png"
+                        alt="Ekstrakurikuler PMR (Palang Merah Remaja)">
+                    <span class="eskul-badge badge-softskill">softskill</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler PMR (Palang Merah Remaja)
+                    </h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -491,14 +493,357 @@
                 </div>
             </div>
 
-            <div class="eskul-card olahraga">
+            <div class="eskul-card softskill">
                 <div class="card-header">
-                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fc5642d6a_1766128726.jpeg"
-                        alt="Ekstrakurikuler marawis dan hadroh">
-                    <span class="eskul-badge badge-olahraga">olahraga</span>
+                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fa689585f_1766128232.png"
+                        alt="Ekstrakurikuler Teater">
+                    <span class="eskul-badge badge-softskill">softskill</span>
                 </div>
                 <div class="card-body">
-                    <h3>Ekstrakurikuler marawis dan hadroh</h3>
+                    <h3>Ekstrakurikuler Teater</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- seni -->
+            <div class="eskul-card seni">
+                <div class="card-header">
+                    <img src="../../images/band.png" alt="Ekstrakurikuler seni musik">
+                    <span class="eskul-badge badge-seni">seni/budaya</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler seni musik</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eskul-card seni">
+                <div class="card-header">
+                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fa070c009_1766128135.png"
+                        alt="Ekstrakurikuler tari tradisional">
+                    <span class="eskul-badge badge-seni">seni/budaya</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler tari tradisional</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- science -->
+            <div class="eskul-card science">
+                <div class="card-header">
+                    <img src="../../images/astronomi.png" alt="Ekstrakurikuler astronomi">
+                    <span class="eskul-badge badge-science">science</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler astronomi</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eskul-card science">
+                <div class="card-header">
+                    <img src="../../images/robotika.png" alt="Ekstrakurikuler robotika & coding">
+                    <span class="eskul-badge badge-science">science</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler robotika & coding</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eskul-card science">
+                <div class="card-header">
+                    <img src="../../images/science.png" alt="Ekstrakurikuler science club">
+                    <span class="eskul-badge badge-science">science</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler science club</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eskul-card science">
+                <div class="card-header">
+                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fc0e8eb29_1766128654.jpeg"
+                        alt="Ekstrakurikuler KIR (Kelompok Ilmiah Remaja)">
+                    <span class="eskul-badge badge-science">science</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler KIR (Kelompok Ilmiah Remaja)</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eskul-card science">
+                <div class="card-header">
+                    <img src="../../images/pals.png" alt="Ekstrakurikuler Kelompok Pemerhati Lingkungan (PALS)">
+                    <span class="eskul-badge badge-science">science</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler Kelompok Pemerhati Lingkungan (PALS)</h3>
+                    <div class="card-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
+                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
+                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                    </div>
+                    <div class="card-meta">
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                <path d="M0 0h448v512H0z" fill="none" />
+                                <path fill="currentColor"
+                                    d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
+                            </svg>
+                            <span>Pembina: </span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                            <span>Senin, 15.00-17.00</span>
+                        </div>
+                        <div class="meta-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span>SMK Genesis Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bahasa -->
+            <div class="eskul-card bahasa">
+                <div class="card-header">
+                    <img src="https://sman27jkt.sch.id/uploads/extracurriculars/6944fcdae5829_1766128858.jpeg"
+                        alt="Ekstrakurikuler Ekstrakurikuler English Club">
+                    <span class="eskul-badge badge-bahasa">bahasa</span>
+                </div>
+                <div class="card-body">
+                    <h3>Ekstrakurikuler Ekstrakurikuler English Club</h3>
                     <div class="card-desc">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
                             autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
@@ -536,6 +881,9 @@
             </div>
         </div>
     </section>
+    <?php
+    include "../../components/footer.php";
+    ?>
 </body>
 
 </html>
