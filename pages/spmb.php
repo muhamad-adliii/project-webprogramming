@@ -22,7 +22,7 @@
                 <h1>Formulir Pendaftaran SPMB</h1>
                 <p>
                     Isi data calon peserta didik baru dengan benar.
-                    Field bertanda * wajib diisi.
+                    Field bertanda <span>*</span> wajib diisi.
                 </p>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <h2>Data Sekolah Asal</h2>
                 <div class="grid">
                     <div>
-                        <label>Asal Sekolah *</label>
+                        <label>Asal Sekolah <span>*</span></label>
                         <select name="asal_sekolah" required>
                             <option value="">Pilih Sekolah</option>
                             <option>SMP Negeri</option>
@@ -42,7 +42,7 @@
                         <!-- buat tahun lulus 5 tahun terakhir -->
                         <?php
                         $currentYear = date("Y");
-                        echo '<label>Tahun Lulus *</label>';
+                        echo '<label>Tahun Lulus <span>*</span></label>';
                         echo '<select name="tahun_lulus" required>';
                         echo '<option value="">Pilih Tahun</option>';
                         for ($i = $currentYear; $i >= $currentYear - 4; $i--) {
@@ -64,12 +64,12 @@
 
                 <div class="grid">
                     <div>
-                        <label>Nama Lengkap *</label>
+                        <label>Nama Lengkap <span>*</span></label>
                         <input type="text" name="nama" required>
                     </div>
 
                     <div>
-                        <label>Jenis Kelamin *</label>
+                        <label>Jenis Kelamin <span>*</span></label>
                         <select name="jk" required>
                             <option value="">Pilih Jenis Kelamin</option>
                             <option>Laki-laki</option>
@@ -78,22 +78,22 @@
                     </div>
 
                     <div>
-                        <label>Tempat Lahir *</label>
+                        <label>Tempat Lahir <span>*</span></label>
                         <input type="text" name="tempat_lahir" required>
                     </div>
 
                     <div>
-                        <label>Tanggal Lahir *</label>
+                        <label>Tanggal Lahir <span>*</span></label>
                         <input type="date" name="tanggal_lahir" required>
                     </div>
 
                     <div>
-                        <label>No Handphone *</label>
+                        <label>No Handphone <span>*</span></label>
                         <input type="text" name="hp" maxlength="15" required>
                     </div>
 
                     <div>
-                        <label>Agama *</label>
+                        <label>Agama <span>*</span></label>
                         <select name="agama" required>
                             <option value="">Pilih Agama</option>
                             <option>Islam</option>
@@ -106,7 +106,7 @@
                 </div>
 
                 <div>
-                    <label>Alamat *</label>
+                    <label>Alamat <span>*</span></label>
                     <textarea name="alamat" required></textarea>
                 </div>
             </div>
@@ -116,34 +116,34 @@
 
                 <div class="grid">
                     <div>
-                        <label>Nama Ayah *</label>
+                        <label>Nama Ayah <span>*</span></label>
                         <input type="text" name="ayah" required>
                     </div>
 
                     <div>
-                        <label>Pekerjaan Ayah * </label>
+                        <label>Pekerjaan Ayah <span>*</span></label>
                         <input type="text" name="pekerjaan_ayah" required>
                     </div>
 
                     <div>
-                        <label>Nama Ibu *</label>
+                        <label>Nama Ibu <span>*</span></label>
                         <input type="text" name="ibu" required>
                     </div>
 
                     <div>
-                        <label>Pekerjaan Ibu *</label>
+                        <label>Pekerjaan Ibu <span>*</span></label>
                         <input type="text" name="pekerjaan_ibu" required>
                     </div>
                 </div>
 
                 <div>
-                    <label>Alamat Orang Tua *</label>
+                    <label>Alamat Orang Tua <span>*</span></label>
                     <textarea name="alamat_ortu" required></textarea>
                 </div>
             </div>
             <div class="card">
                 <h3>Kirim Formulir</h3>
-                <p>Pastikan semua data sudah benar. Setelah menekan tombol kirim, data akan dikirim ke spreadsheet resmi
+                <p>Pastikan semua data sudah benar. Setelah menekan tombol kirim, data akan dikirim dan Anda akan menerima bukti pendaftaran
                     SPMB</p>
                 <button type="submit">Kirim Formulir</button>
             </div>

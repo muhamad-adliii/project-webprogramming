@@ -1,0 +1,280 @@
+.hero-section {
+  height: 70vh;
+  background-image: url("../images/secondschool.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  /* position: relative; */
+}
+
+.hero-section::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+/* stats card */
+.container-card {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  padding: 20px 20px;
+  background: white;
+  border-radius: 15px;
+  border-top: 4px solid transparent;
+  text-transform: uppercase;
+}
+
+.stat-card.rohani {
+  border-top-color: #28a745;
+}
+
+.rohani-icon {
+  font-size: 3em;
+}
+
+.rohani-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #28a745;
+}
+
+.rohani-text {
+  font-size: 1em;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.stat-card.olahraga {
+  border-top-color: #dc3545;
+}
+
+.olahraga-icon {
+  font-size: 3em;
+}
+
+.olahraga-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #dc3545;
+}
+
+.olahraga-text {
+  font-size: 1em;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.stat-card.softskill {
+  border-top-color: #ffc107;
+}
+
+.softskill-icon {
+  font-size: 3em;
+}
+
+.softskill-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #ffc107;
+}
+
+.softskill-text {
+  font-size: 1em;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.stat-card.seni {
+  border-top-color: #e83e8c;
+}
+
+.seni-icon {
+  font-size: 3em;
+}
+
+.seni-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #e83e8c;
+}
+
+.seni-text {
+  font-size: 1em;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.stat-card.science {
+  border-top-color: #17a2b8;
+}
+
+.science-icon {
+  font-size: 3em;
+}
+
+.science-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #17a2b8;
+}
+
+.science-text {
+  font-size: 1em;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.stat-card.bahasa {
+  border-top-color: #6f42c1;
+}
+
+.bahasa-icon {
+  font-size: 3em;
+}
+
+.bahasa-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #6f42c1;
+}
+
+.bahasa-text {
+  font-size: 1em;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.eskul-section {
+  padding: 50px;
+}
+
+.eskul-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.eskul-card {
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.eskul-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.eskul-badge.badge-rohani {
+  background: #28a745;
+}
+
+.eskul-badge.badge-olahraga {
+  background: #dc3545;
+}
+
+.eskul-badge.badge-softskill {
+  background: #ffc107;
+}
+
+.eskul-badge.badge-seni {
+  background: #e83e8c;
+}
+
+.eskul-badge.badge-science {
+  background: #17a2b8;
+}
+
+.eskul-badge.badge-bahasa {
+  background: #6f42c1;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-body h3 {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.1;
+}
+
+.card-desc {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.card-meta {
+  margin-top: auto;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
+}
+
+.meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.meta-row svg {
+  width: 18px;
+  color: #667eea;
+}

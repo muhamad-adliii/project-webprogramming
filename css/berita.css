@@ -43,20 +43,22 @@
 }
 
 .subtitle-container {
+  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 10;
   gap: 0.85rem;
+  justify-content: center;
 }
 
 .line {
   height: 1.5px;
   width: 45px;
-  background-color: #c2410c;
+  background-color: #ad2831;
 }
 
 .subtitle {
-  color: #c2410c;
+  color: #ad2831;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;

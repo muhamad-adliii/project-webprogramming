@@ -23,15 +23,10 @@
 
     <!-- CONTENT -->
     <section class="content">
-
-        <div class="title-box">
-
-            <div class="line"></div>
-
-            <span>Hogwarts School</span>
-
-            <div class="line"></div>
-
+        <div class="subtitle-container">
+            <span class="line"></span>
+            <span class="subtitle">SMK Genesis Teknologi</span>
+            <span class="line"></span>
         </div>
 
         <h1>Teknik Komputer & Jaringan</h1>

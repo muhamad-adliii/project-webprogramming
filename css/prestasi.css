@@ -1,0 +1,66 @@
+main.container .news-grid {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+}
+
+/* 2. KUNCI WARNA CARD JADI BIRU (BIAR GAK KELUAR MERAH LAGI) */
+main.container .news-grid .card {
+    background-color: #0d2c54; /* Biru navy pekat */
+    border: 4px solid #0d2c54; /* Border disamakan jadi biru */
+    border-radius: 12px;
+    height: auto; /* Biar fleksibel */
+    min-height: 500px;
+}
+
+/* 3. ATUR GAMBAR AGAR PAS & ADA PADDING */
+main.container .news-grid .card .card-img {
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Biar gambar penuh gak gepeng */
+}
+
+/* 4. OREK GARIS PEMBATAS DI BAWAH GAMBAR */
+main.container .news-grid .card .card-img-container {
+    border-bottom: 4px solid #0d2c54;
+}
+
+/* 5. KUNCI WARNA SAAT DI-HOVER */
+main.container .news-grid .card:hover {
+    background-color: #0d2c54;
+}
+
+/* 6. KUNCI WARNA TEKS BIAR PUTIH KONTRAS */
+main.container .news-grid .card .card-body {
+    color: #ffffff;
+}
+
+main.container .news-grid .card .card-title {
+    color: #ffffff;
+    font-size: 0.95rem; /* Ukuran pas buat 4 kolom */
+}
+
+main.container .news-grid .card .card-text {
+    color: #cfd8dc; 
+    -webkit-line-clamp: 5; /* Potong 5 baris biar rapi */
+}
+
+main.container .news-grid .card .card-date {
+    font-size: 0.8rem;
+    color: #b0bec5;
+    margin-bottom: 8px;
+}
+
+/* --- RESPONSIVE SCREEN (MOBILE & TABLET) --- */
+@media (max-width: 1024px) {
+    main.container .news-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 600px) {
+    main.container .news-grid {
+        grid-template-columns: 1fr; 
+    }
+}
