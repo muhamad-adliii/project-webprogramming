@@ -27,7 +27,7 @@
             <!-- </div> -->
         </label>
         <ul>
-            <li><a href="/project-webprogramming/index.php">Beranda</a></li>
+            <li><a href="/project-webprogramming/api/index.php">Beranda</a></li>
             <li class="profile-dropdown">
                 <div class="profile-icon">
                     <a href="">Profile</a>
