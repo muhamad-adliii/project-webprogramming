@@ -1,6 +1,3 @@
-<?php
-include '../components/navbar.html';
-?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -8,11 +5,16 @@ include '../components/navbar.html';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulir Pendaftaran SPMB</title>
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/cetak_spmb.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
-
+    <?php
+    include '../components/navbar.php';
+    ?>
     <div class="container">
 
         <div class="header">
@@ -109,5 +111,5 @@ include '../components/navbar.html';
 </html>
 
 <?php
-include '../components/footer.html';
+include '../components/footer.php';
 ?>

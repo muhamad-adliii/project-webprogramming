@@ -13,25 +13,20 @@
 </head>
 
 <body>
-    <?php
-    include '../../components/navbar.php';
-    ?>
-
-    <!-- HERO -->
-    <section class="hero" style="background-image: url('../../images/secondschool.jpeg');">
+    <section class="hero-section">
+        <?php include '../../components/navbar.php'; ?>
+        <div class="hero-content">
+            <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
+            <h1>JURUSAN TEKNIK KOMPUTER & JARINGAN</h1>
+        </div>
     </section>
 
     <!-- CONTENT -->
     <section class="content">
-
-        <div class="title-box">
-
-            <div class="line"></div>
-
-            <span>Hogwarts School</span>
-
-            <div class="line"></div>
-
+        <div class="subtitle-container">
+            <span class="line"></span>
+            <span class="subtitle">SMK Genesis Teknologi</span>
+            <span class="line"></span>
         </div>
 
         <h1>Teknik Komputer & Jaringan</h1>

@@ -1,16 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--main-font);
-}
-
-body {
-  color: #222;
-}
-
-/* HERO */
-
 .hero-section {
   height: 70vh;
   background-image: url("../images/secondschool.jpeg");
@@ -58,13 +45,16 @@ body {
   font-weight: 500;
   z-index: 3;
 }
-/* CONTENT */
 
-.content {
-  max-width: 1000px;
-  margin: auto;
-  background: white;
-  padding: 50px;
+/* --- MAIN CONTENT (FASILITAS) --- */
+.facility-section {
+  width: 85%;
+  margin: 50px auto;
+}
+
+.facility-title {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .subtitle-container {
@@ -90,127 +80,88 @@ body {
   font-size: 0.85rem;
 }
 
-.content h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 38px;
+.facility-title h2 {
+  color: #1a2a40;
+  font-size: 2.8rem;
+  margin-top: 5px;
   font-weight: 400;
-  color: var(--accent-color-one);
   font-family: "Handlee", cursive;
 }
 
-.wrapper {
-  display: flex;
-  gap: 50px;
-  align-items: flex-start;
+/* Pengaturan Grid Layout 3 Kolom */
+.facility-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
-/* LOGO */
-
-.logo-box {
-  width: 250px;
-  flex-shrink: 0;
+/* Desain Komponen Kartu */
+.facility-card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: 1px solid #eee;
 }
 
-.logo-box img {
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.facility-img {
   width: 100%;
+  height: 200px;
+  overflow: hidden;
 }
 
-/* TEXT */
-
-.text-box {
-  flex: 1;
-}
-
-.banner {
+.facility-img img {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
-  margin-bottom: 25px;
+  height: 100%;
+  object-fit: cover; /* Biar gambarnya proporsional terpotong rapi */
 }
 
-.text-box p {
-  font-size: 15px;
-  line-height: 1.9;
-  color: #4b5563;
-  margin-bottom: 20px;
-  text-align: justify;
+.facility-info {
+  padding: 15px;
+  text-align: center;
+  background-color: #fdfdfd;
 }
 
-/* RESPONSIVE */
+.facility-info h3 {
+  font-size: 1.1rem;
+  color: #1a2a40;
+  font-weight: 600;
+}
 
-@media (max-width: 768px) {
-  .content {
-    padding: 30px 20px;
-  }
-
-  .wrapper {
-    flex-direction: column;
-  }
-
-  .logo-box {
-    width: 180px;
-    margin: auto;
-  }
-
-  .content h1 {
-    font-size: 30px;
-  }
-
-  .hero {
-    height: 220px;
+@media (max-width: 992px) {
+  .facility-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
+  .facility-grid {
+    grid-template-columns: 1fr;
+  }
+  .facility-section {
+    width: 90%;
+  }
+
   .hero-content {
     /* margin-top: 100px; */
     z-index: -2;
   }
 
   .profile-subtitle-hero {
-    z-index: 0 ;
+    z-index: 0;
     font-size: 0.9rem;
   }
 
   .hero-content h1 {
     z-index: 0;
     font-size: 1.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-content h1 {
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-  }
-
-  .profile-subtitle-hero {
-    font-size: 0.85rem;
-    letter-spacing: 2px;
-  }
-
-  .content {
-    padding: 30px 15px;
-  }
-
-  .content h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  .logo-box {
-    width: 130px;
-  }
-
-  .banner {
-    height: 150px;
-    margin-bottom: 15px;
-  }
-
-  .text-box p {
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 15px;
   }
 }

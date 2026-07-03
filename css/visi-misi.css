@@ -1,0 +1,212 @@
+/* --- HERO SECTION BANNER --- */
+.hero-section {
+  /* height: 350px; */
+  /* Naik dua folder dulu karena letak file ada di /css/, baru tembak ke folder images */
+  height: 70vh;
+  background-image: url("../images/secondschool.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+}
+
+.hero-section::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.5);
+  /* z-index: 2; */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 140px;
+  z-index: 3;
+  /* margin: auto; */
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 0.5rem;
+  color: #fff;
+  z-index: 3;
+  /* text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.profile-subtitle-hero {
+  font-size: 1.1rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  z-index: 3;
+}
+
+/* --- LAYOUT VISI MISI DI BAWAHNYA --- */
+.profile-container {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.visi-misi-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.profile-logo-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: sticky; */
+  top: 100px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+}
+
+.profile-big-logo {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.1));
+}
+
+.profile-text-area {
+  flex: 1.2;
+}
+
+.profile-subtitle {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start; /* KUNCI: Ubah jadi flex-start biar rata kiri */
+  gap: 10px;
+  color: #a82c2c !important;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.profile-subtitle span {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #a82c2c !important;
+}
+
+.profile-main-title {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 2.8rem;
+  color: #0d2c54 !important;
+  font-weight: 600;
+  text-align: left; /* KUNCI: Ubah dari center jadi left */
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.visi-section h3,
+.misi-section h3 {
+  font-size: 1.6rem;
+  color: #0d2c54;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.visi-section p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.misi-list {
+  padding-left: 1.2rem;
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+.misi-list li {
+  display: list-item !important;
+  list-style-type: decimal;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 0.8rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .visi-misi-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-content {
+    /* margin-top: 100px; */
+    z-index: -2;
+  }
+
+  .profile-subtitle-hero {
+    z-index: 0;
+  }
+
+  .hero-content h1 {
+    z-index: 0;
+  }
+
+  .profile-container {
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .profile-main-title {
+    font-size: 2.2rem;
+  }
+
+  .visi-section h3,
+  .misi-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .profile-big-logo {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .profile-subtitle-hero {
+    font-size: 0.9rem;
+  }
+
+  .profile-main-title {
+    font-size: 1.8rem;
+  }
+
+  .profile-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .profile-big-logo {
+    max-width: 80%;
+  }
+
+  .visi-section p,
+  .misi-list li {
+    font-size: 0.9rem;
+  }
+}
