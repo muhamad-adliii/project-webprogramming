@@ -189,10 +189,10 @@ nav ul li a {
   display: none;
   cursor: pointer;
   z-index: 10000;
+  color: var(--color-font, #fff);
 }
 
 /* .menu {
-  color: var(--color-font, #fff);
   display: flex;
   align-items: center;
   transition: transform 0.3s ease;
@@ -204,8 +204,8 @@ nav ul li a {
     gap: 30px;
   }
   nav > ul {
-    display:flex;
-        align-items:flex-start;
+    display: flex;
+    align-items: flex-start;
     position: absolute;
     top: 100%;
     left: 0;
