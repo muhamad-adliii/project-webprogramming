@@ -70,6 +70,8 @@
   align-items: center;
   /* position: sticky; */
   top: 100px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
 }
 
 .profile-big-logo {
