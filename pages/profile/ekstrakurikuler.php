@@ -17,18 +17,22 @@
         <?php
         include '../../components/navbar.php';
         ?>
+        <div class="hero-content">
+            <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
+            <h1>EKSTRAKURIKULER SEKOLAH</h1>
+        </div>
     </section>
 
     <section class="container-card">
         <div class="card-wrapper">
             <div class="stat-card rohani">
                 <span class="rohani-icon">🤲</span>
-                <span class="rohani-number">4</span>
+                <span class="rohani-number">3</span>
                 <span class="rohani-text">ROHANI</span>
             </div>
             <div class="stat-card olahraga">
                 <span class="olahraga-icon">⚽</span>
-                <span class="olahraga-number">7</span>
+                <span class="olahraga-number">6</span>
                 <span class="olahraga-text">OLAHRAGA</span>
             </div>
             <div class="stat-card softskill">
@@ -66,9 +70,10 @@
                     <h3>
                         Ekstrakurikuler ROHKRIS (Rohani Kristen) </h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler ROHKRIS merupakan wadah pembinaan iman dan karakter bagi siswa Kristen di SMK
+                            Genesis Teknologi. Melalui kegiatan ibadah, pendalaman Alkitab, persekutuan, dan pelayanan,
+                            siswa dibimbing untuk bertumbuh dalam iman, membangun kebersamaan, serta menerapkan
+                            nilai-nilai Kristiani dalam kehidupan sehari-hari.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -77,7 +82,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Afif Marsa Fauzan</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -85,7 +90,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Rabu, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -110,9 +115,13 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler ROHIS (Rohani Islam) </h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler ROHIS merupakan wadah pembinaan iman dan akhlak bagi siswa Muslim di SMK
+                            Genesis
+                            Teknologi. Melalui kegiatan kajian Islam, tilawah Al-Qur'an, dan berbagai kegiatan
+                            keagamaan,
+                            siswa dibimbing untuk meningkatkan keimanan serta menerapkan nilai-nilai Islam dalam
+                            kehidupan
+                            sehari-hari.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -121,7 +130,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Muhammad Ibrahim Al-kholil</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -129,7 +138,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Jum'at, 14.00-16.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -154,9 +163,12 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler marawis dan hadroh</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Marawis dan Hadroh merupakan wadah bagi siswa untuk mengembangkan bakat dalam
+                            seni musik Islami di SMK Genesis Teknologi. Melalui latihan rutin, penampilan, dan
+                            pembinaan,
+                            siswa dibimbing untuk meningkatkan kreativitas, kekompakan, serta melestarikan seni budaya
+                            Islam
+                            dalam kehidupan sehari-hari.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -165,7 +177,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Muhammad Rifqi Fadillah</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -173,7 +185,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Senin, 14.00-16.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -198,9 +210,12 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler Badminton</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler Badminton merupakan wadah bagi siswa untuk mengembangkan kemampuan dalam
+                            olahraga
+                            bulu tangkis di SMK Genesis Teknologi. Melalui latihan rutin, pertandingan, dan pembinaan,
+                            siswa dibimbing untuk meningkatkan teknik, sportivitas, serta kerja sama dalam meraih
+                            prestasi
+                            di berbagai kompetisi.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -209,7 +224,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Kris Dian Adi Pratama</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -217,7 +232,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Kamis, 15.30-18.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -241,9 +256,12 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler Basket</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Basket merupakan wadah bagi siswa untuk mengembangkan kemampuan dalam
+                            olahraga
+                            bola basket di SMK Genesis Teknologi. Melalui latihan rutin, pertandingan, dan pembinaan,
+                            siswa dibimbing untuk meningkatkan teknik, sportivitas, serta kerja sama dalam meraih
+                            prestasi
+                            di berbagai kompetisi Tingkat Nasional.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -252,7 +270,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Mitra Alfarid</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -284,9 +302,12 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler Bola Voli</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Bola Voli merupakan wadah bagi siswa untuk mengembangkan kemampuan dalam
+                            olahraga
+                            bola voli di SMK Genesis Teknologi. Melalui latihan rutin, pertandingan, dan pembinaan,
+                            siswa dibimbing untuk meningkatkan teknik, sportivitas, serta kerja sama dalam meraih
+                            prestasi
+                            di berbagai kompetisi Tingkat Nasional. </p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -295,7 +316,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Novaka Saputra</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -303,7 +324,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Sabtu, 9.30-12.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -327,9 +348,12 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler futsal</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Futsal merupakan wadah bagi siswa untuk mengembangkan kemampuan dalam
+                            olahraga
+                            futsal di SMK Genesis Teknologi. Melalui latihan rutin, pertandingan, dan pembinaan,
+                            siswa dibimbing untuk meningkatkan teknik, sportivitas, serta kerja sama dalam meraih
+                            prestasi
+                            di berbagai kompetisi tingkat internasional.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -338,7 +362,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Rizki Fadli Ramadhan</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -346,7 +370,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Selasa, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -370,9 +394,10 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler paskibra</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Paskibra merupakan wadah bagi siswa untuk mengembangkan jiwa kepemimpinan,
+                            kedisiplinan, dan tanggung jawab di SMK Genesis Teknologi. Melalui latihan rutin, pembinaan,
+                            serta keikutsertaan dalam kegiatan dan perlombaan tingkat kota, siswa dibimbing untuk
+                            meningkatkan kemampuan baris-berbaris dan kerja sama tim.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -381,7 +406,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Reva Triana Sukma</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -413,9 +438,11 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler karate</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler Karate merupakan wadah bagi siswa untuk mengembangkan kemampuan dalam seni
+                            bela
+                            diri di SMK Genesis Teknologi. Melalui latihan rutin, pembinaan, dan keikutsertaan dalam
+                            berbagai kejuaraan, siswa dibimbing untuk meningkatkan teknik, disiplin, serta rasa percaya
+                            diri dalam meraih prestasi tingkat nasional.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -424,7 +451,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Muhammad fadhail supriadi</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -432,7 +459,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Kamis, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -458,9 +485,12 @@
                     <h3>Ekstrakurikuler PMR (Palang Merah Remaja)
                     </h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler PMR (Palang Merah Remaja) merupakan wadah bagi siswa untuk mengembangkan
+                            jiwa
+                            kemanusiaan, kepedulian, dan keterampilan pertolongan pertama di SMK Genesis Teknologi.
+                            Melalui
+                            pelatihan rutin, pembinaan, dan kegiatan sosial, siswa dibimbing untuk meningkatkan
+                            tanggung jawab serta semangat dalam membantu sesama.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -469,7 +499,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Choirunnisa Aulia El Firdausi</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -502,9 +532,12 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler Teater</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Teater merupakan wadah bagi siswa untuk mengembangkan bakat dalam seni peran,
+                            kreativitas, dan kepercayaan diri di SMK Genesis Teknologi. Melalui latihan rutin,
+                            pementasan,
+                            dan pembinaan, siswa dibimbing untuk meningkatkan kemampuan berekspresi serta kerja sama
+                            dalam menghasilkan pertunjukan yang berkualitas.</p>
+                        <br>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -513,7 +546,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Muhammad Banue Budhie Sentosa</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -521,7 +554,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Kamis, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -545,9 +578,13 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler seni musik</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Seni Musik merupakan wadah bagi siswa untuk mengembangkan bakat dalam bidang
+                            musik di SMK Genesis Teknologi. Melalui latihan rutin, pembinaan, dan penampilan pada
+                            berbagai
+                            kegiatan sekolah, siswa dibimbing untuk meningkatkan kreativitas, kemampuan bermusik, serta
+                            kerja sama dalam berkarya.</p>
+                        <br>
+                        <br>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -556,7 +593,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Arya Luqmannul Hakim</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -589,9 +626,11 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler tari tradisional</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler Tari Tradisional merupakan wadah bagi siswa untuk mengembangkan bakat dalam
+                            seni
+                            tari daerah di SMK Genesis Teknologi. Melalui latihan rutin, pembinaan, dan penampilan pada
+                            berbagai kegiatan sekolah, siswa dibimbing untuk meningkatkan kreativitas serta melestarikan
+                            budaya Indonesia dengan penuh semangat.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -600,7 +639,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Rifky al-Adli</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -608,7 +647,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Kamis, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -632,9 +671,11 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler astronomi</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Astronomi merupakan wadah bagi siswa untuk mengembangkan minat dalam ilmu
+                            astronomi di SMK Genesis Teknologi. Melalui observasi, diskusi, dan berbagai kegiatan
+                            ilmiah,
+                            siswa dibimbing untuk meningkatkan pengetahuan, rasa ingin tahu, serta kemampuan berpikir
+                            kritis terhadap fenomena alam semesta.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -643,7 +684,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Bhadrika Anggarekso Priambodo</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -674,9 +715,11 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler robotika & coding</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler Robotika & Coding merupakan wadah bagi siswa untuk mengembangkan kemampuan
+                            dalam
+                            pemrograman dan teknologi di SMK Genesis Teknologi. Melalui praktik, proyek, dan kompetisi,
+                            siswa dibimbing untuk meningkatkan kreativitas, kemampuan berpikir logis, serta keterampilan
+                            dalam menciptakan inovasi berbasis teknologi.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -685,7 +728,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Muhamad Adli Akbar</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -693,7 +736,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Rabu, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -716,9 +759,13 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler science club</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler Science Club merupakan wadah bagi siswa untuk mengembangkan minat dalam
+                            bidang
+                            sains di SMK Genesis Teknologi. Melalui eksperimen, penelitian, dan berbagai kegiatan
+                            ilmiah,
+                            siswa dibimbing untuk meningkatkan kemampuan berpikir kritis, kreativitas, serta
+                            keterampilan
+                            dalam memecahkan berbagai permasalahan.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -727,7 +774,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Restu Aji Prasetyo</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -735,7 +782,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Kamis, 15.00-17.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -759,9 +806,10 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler KIR (Kelompok Ilmiah Remaja)</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler KIR (Kelompok Ilmiah Remaja) merupakan wadah bagi siswa untuk mengembangkan
+                            kemampuan dalam penelitian dan karya ilmiah di SMK Genesis Teknologi. Melalui observasi,
+                            diskusi, dan penyusunan penelitian, siswa dibimbing untuk meningkatkan kreativitas, berpikir
+                            kritis, serta menghasilkan inovasi yang bermanfaat.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -770,7 +818,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Raihan Kamil</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -801,9 +849,11 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler Kelompok Pemerhati Lingkungan (PALS)</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p> Ekstrakurikuler Kelompok Pemerhati Lingkungan (PALS) merupakan wadah bagi siswa untuk
+                            menumbuhkan kepedulian terhadap lingkungan di SMK Genesis Teknologi. Melalui kegiatan
+                            penghijauan,
+                            pengelolaan sampah, dan aksi peduli lingkungan, siswa dibimbing untuk meningkatkan tanggung
+                            jawab serta membangun kebiasaan hidup yang bersih.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -812,7 +862,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Rulli Ervando</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -820,7 +870,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
-                            <span>Senin, 15.00-17.00</span>
+                            <span>Sabtu, 09.00-12.00</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -845,9 +895,10 @@
                 <div class="card-body">
                     <h3>Ekstrakurikuler Ekstrakurikuler English Club</h3>
                     <div class="card-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam adipisci, numquam
-                            autem deleniti dolor dignissimos praesentium architecto asperiores, nihil voluptate dolorum
-                            fugiat voluptatum, beatae sint? Vero facere officiis quas!</p>
+                        <p>Ekstrakurikuler English Club merupakan wadah bagi siswa untuk mengembangkan kemampuan
+                            berbahasa Inggris di SMK Genesis Teknologi. Melalui diskusi, presentasi, permainan edukatif,
+                            dan berbagai kegiatan interaktif, siswa dibimbing untuk meningkatkan kemampuan komunikasi,
+                            kepercayaan diri, serta keterampilan berbahasa Inggris.</p>
                     </div>
                     <div class="card-meta">
                         <div class="meta-row">
@@ -856,7 +907,7 @@
                                 <path fill="currentColor"
                                     d="M96 128a128 128 0 1 0 256 0a128 128 0 1 0-256 0m94.5 200.2l18.6 31l-33.3 123.9l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7h386.6c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9l-33.3-123.9l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2h-39.5c-12.4 0-20.1 13.6-13.7 24.2z" />
                             </svg>
-                            <span>Pembina: </span>
+                            <span>Pembina: Alifa Khairunnisa</span>
                         </div>
                         <div class="meta-row">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"

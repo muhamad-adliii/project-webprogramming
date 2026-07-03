@@ -89,7 +89,7 @@
 
                     <div>
                         <label>No Handphone <span>*</span></label>
-                        <input type="text" name="hp" maxlength="15" required>
+                        <input type="number" name="hp" maxlength="15" required>
                     </div>
 
                     <div>
@@ -143,7 +143,8 @@
             </div>
             <div class="card">
                 <h3>Kirim Formulir</h3>
-                <p>Pastikan semua data sudah benar. Setelah menekan tombol kirim, data akan dikirim dan Anda akan menerima bukti pendaftaran
+                <p>Pastikan semua data sudah benar. Setelah menekan tombol kirim, data akan dikirim dan Anda akan
+                    menerima bukti pendaftaran
                     SPMB</p>
                 <button type="submit">Kirim Formulir</button>
             </div>

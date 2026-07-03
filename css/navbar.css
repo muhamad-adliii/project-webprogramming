@@ -1,5 +1,6 @@
 * {
   font-family: var(--main-font);
+  /* overflow-x: hidden; */
 }
 
 nav {
@@ -9,7 +10,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  z-index: 9999;
+  width: 100%;
+  z-index: 2;
 }
 
 .navbar-title {
@@ -60,7 +62,7 @@ nav ul li a {
 
 .keahlian-icon svg {
   margin: 0 !important;
-  padding:0 !important;
+  padding: 0 !important;
   width: 18px;
   transform: translateX(-12px);
   color: var(--color-font);
@@ -177,4 +179,99 @@ nav ul li a {
 
 .gallery-dropdown:hover .gallery-list {
   display: block;
+}
+
+.menu-toggle-input {
+  display: none;
+}
+
+.hamburger-trigger {
+  display: none;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.menu {
+  color: var(--color-font, #fff);
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  nav ul li a {
+    display: flex !important;
+    gap: 30;
+  }
+  nav > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    background-color: var(--primary-color, #333);
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+  }
+  .hamburger-trigger {
+    display: block;
+  }
+
+  .menu-toggle-input:checked ~ ul {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  nav ul li {
+    width: 100%;
+    padding: 10px 5%;
+    box-sizing: border-box;
+  }
+
+  nav ul li a {
+    width: 100%;
+  }
+
+  .profile-list,
+  .keahlian-list,
+  .gallery-list {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    /* width: 100%; */
+    visibility: visible !important;
+    opacity: 1;
+    background-color: transparent;
+    /* color: white; */
+  }
+
+  .profile-list li a,
+  .keahlian-list li a,
+  .gallery-list li a {
+    /* padding-left: 30px; */
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  .profile-list li a:hover,
+  .keahlian-list li a:hover,
+  .gallery-list li a:hover {
+    background-color: transparent;
+  }
+
+  .nav-daftar {
+    padding: 0;
+    padding-left: 1rem;
+    /* margin: 0; */
+  }
+  .nav-daftar a {
+    width: 50%;
+  }
 }

@@ -99,3 +99,23 @@ footer {
 .footer-maps iframe {
   border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 5%;
+  }
+
+  .footer-information,
+  .footer-about,
+  .footer-keahlian,
+  .footer-maps {
+    max-width: 100%;
+  }
+
+  .footer-maps iframe {
+    width: 100% !important;
+    height: 250px;
+  }
+}

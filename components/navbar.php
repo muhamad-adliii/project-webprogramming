@@ -16,6 +16,16 @@
             <img src="/project-webprogramming/images/logo-sekolah2.0.png" alt="">
             <h3>SMK Genesis Teknologi</h3>
         </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+        <label for="menu-toggle" class="hamburger-trigger">
+            <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </div>
+        </label>
         <ul>
             <li><a href="/project-webprogramming/index.php">Beranda</a></li>
             <li class="profile-dropdown">
@@ -26,7 +36,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
                 </div>
-
                 <ul class="profile-list">
                     <li><a href="/project-webprogramming/pages/profile/visi-misi.php">Visi & Misi</a></li>
                     <li><a href="/project-webprogramming/pages/profile/ekstrakurikuler.php">Ekstrakurikuler</a></li>

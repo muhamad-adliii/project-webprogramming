@@ -13,13 +13,14 @@
 </head>
 
 <body>
-    <?php
-    include '../../components/navbar.php';
-    ?>
-
-    <!-- HERO -->
-    <section class="hero" style="background-image: url('../../images/secondschool.jpeg');">
+    <section class="hero-section">
+        <?php include '../../components/navbar.php'; ?>
+        <div class="hero-content">
+            <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
+            <h1>Teknik Elektronika Industri</h1>
+        </div>
     </section>
+
     <!-- CONTENT -->
     <section class="content">
         <div class="subtitle-container">

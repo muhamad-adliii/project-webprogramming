@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/berita.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
 </head>
 
 <body>
     <section class="hero-banner">
         <?php
-    include '../components/navbar.php';
-    ?>
+        include '../components/navbar.php';
+        ?>
+        <div class="hero-content">
+            <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
+            <h1>berita sekolah</h1>
+        </div>
     </section>
 
 
@@ -30,7 +35,6 @@
         </div>
         <!-- ROW 1 BERITA -->
         <div class="news-grid">
-
             <!-- BERITA 1 -->
             <div class="card">
                 <div class="card-img-container">
@@ -54,8 +58,7 @@
             <div class="card">
                 <div class="card-img-container">
                     <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&q=80&w=600"
-                        alt="PPDB Online" class="card-img"> alt="PPDB Online" class="card-img"> alt="PPDB Online"
-                    class="card-img">
+                        alt="PPDB Online" class="card-img">
                 </div>
                 <div class="card-body">
                     <div>
@@ -89,7 +92,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- ROW 2 BERITA -->
@@ -159,9 +161,9 @@
 
         </div>
     </main>
-    <?php 
+    <?php
     include "../components/footer.php"
-    ?>
+        ?>
 </body>
 
 </html>

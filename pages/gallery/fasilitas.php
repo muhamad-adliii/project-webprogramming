@@ -17,7 +17,10 @@
         <?php
         include '../../components/navbar.php';
         ?>
-
+        <div class="hero-content">
+            <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
+            <h1>fasilitas sekolah</h1>
+        </div>
     </section>
     <main class="facility-section">
         <div class="facility-title">

@@ -12,12 +12,14 @@
   inset: 0;
   position: absolute;
   height: 70vh;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  /* z-index: 2; */
 }
 
 .hero-card {
-  display: flex;
+  display: grid;
+  /* Kunci utama responsif: minimal lebar card 300px, jika layar lebih kecil akan otomatis turun */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 0;
   margin-top: 250px;
   padding: 0 4em;
@@ -25,7 +27,7 @@
 }
 
 .card-card {
-  flex: 1;
+  /* flex: 4; dihapus karena kita sudah memakai Grid */
   color: var(--color-font);
   padding: 30px;
   position: relative;
@@ -33,7 +35,7 @@
 }
 
 .card-card:nth-child(1) {
-  background: rgba(35, 57, 91, 20);
+  background: rgba(35, 57, 91, 0.9);
 }
 
 .card-card .card-icon svg {
@@ -53,16 +55,16 @@
 }
 
 .card-card:nth-child(2) {
-  background: #0a2239;
+  background: rgba(10, 34, 57, 0.9);
 }
 
 .card-card:nth-child(3) {
-  background: #ad2831;
+  background: rgba(173, 40, 49, 0.9);
 }
 
 /* sambutan */
 .sambutan {
-  margin-top: 300px;
+  margin-top: 350px;
   display: flex;
   padding: 0 5em;
 }
@@ -159,7 +161,7 @@
 .keahlian-title h3 {
   text-transform: capitalize;
   font-size: 2em;
-  color: var(--secondary-color);
+  color: var(--accent);
   font-weight: 600;
   display: inline-block;
   position: relative;
@@ -325,4 +327,50 @@
 .berita-card .selengkapnya:hover {
   text-decoration: underline;
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    padding: 0 1.5em;
+    margin-top: 300px;
+  }
+
+  .card-card {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .sambutan {
+    flex-direction: column;
+    padding: 0 1.5em;
+    margin-top: 1100px;
+    gap: 2rem;
+  }
+
+  .sambutan-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sambutan-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sambutan-desc {
+    max-width: 100%;
+  }
+
+  .title h4 {
+    font-size: 2.2em;
+  }
+
+  .information {
+    padding: 2rem 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2.5rem;
+    margin-top: 80px;
+  }
 }

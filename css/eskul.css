@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .hero-section {
   height: 70vh;
   background-image: url("../images/secondschool.jpeg");
@@ -12,8 +16,38 @@
   inset: 0;
   position: absolute;
   height: 70vh;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  /* z-index: 2; */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 140px;
+  z-index: 3;
+  /* margin: auto; */
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 0.5rem;
+  color: #fff;
+  z-index: 3;
+  /* text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.profile-subtitle-hero {
+  font-size: 1.1rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  z-index: 3;
 }
 
 /* stats card */
@@ -176,8 +210,10 @@
 
 .eskul-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
+  margin: auto;
+  align-items: center;
 }
 
 .eskul-card {
@@ -277,4 +313,55 @@
 .meta-row svg {
   width: 18px;
   color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    /* margin-top: 100px; */
+    z-index: -2;
+  }
+
+  .profile-subtitle-hero {
+    z-index: 0 ;
+    font-size: 0.9rem;
+  }
+
+  .hero-content h1 {
+    z-index: 0;
+    font-size: 1.8rem;
+  }
+
+  .profile-main-title {
+    font-size: 1.8rem;
+  }
+
+  .profile-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .profile-big-logo {
+    max-width: 80%;
+  }
+
+  .visi-section p,
+  .misi-list li {
+    font-size: 0.9rem;
+  }
+
+  .container-card {
+    padding: 20px;
+  }
+
+  .eskul-section {
+    padding: 20px;
+  }
+
+  .eskul-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card-header img {
+    height: 200px; /* Kurangi tinggi gambar agar proporsional di HP */
+  }
 }

@@ -28,12 +28,13 @@
                             d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                     </svg>
                     <div class="card-title">
-                        <h4>KURIKULUM BERBASIS SIHIR</h4>
+                        <h4>KURIKULUM BERBASIS TEKNOLOGI</h4>
                     </div>
                     <div class="card-desc">
-                        Hogwarts School menerapkan pembelajaran yang terhubung langsung dengan dunia sihir kreatif dan
-                        tongkat sihir. Melalui pendekatan proyek dan teaching factory, siswa belajar secara kontekstual
-                        dan berorientasi pada kebutuhan sihir masa depan.
+                        SMK Genesis Teknologi menerapkan pembelajaran yang terhubung langsung dengan dunia industri,
+                        teknologi digital, dan inovasi. Melalui pendekatan proyek dan teaching factory, siswa belajar
+                        secara kontekstual dan berorientasi pada kebutuhan dunia kerja serta perkembangan teknologi masa
+                        depan.
                     </div>
                 </div>
             </div>
@@ -48,9 +49,9 @@
                         <h4>SERTIFIKASI KOMPETENSI</h4>
                     </div>
                     <div class="card-desc">
-                        Hogwarts School menerapkan pembelajaran yang terhubung langsung dengan dunia sihir kreatif dan
-                        tongkat sihir. Melalui pendekatan proyek dan teaching factory, siswa belajar secara kontekstual
-                        dan berorientasi pada kebutuhan sihir masa depan.
+                        SMK Genesis Teknologi memberikan sertifikasi kompetensi sebagai bukti kemampuan siswa sesuai
+                        standar industri. Melalui pelatihan, praktik, dan uji kompetensi, siswa dipersiapkan agar
+                        memiliki keterampilan yang diakui serta siap bersaing di dunia kerja profesional.
                     </div>
                 </div>
             </div>
@@ -65,11 +66,9 @@
                         <h4>CHARACTER BUILDING</h4>
                     </div>
                     <div class="card-desc">
-                        Hogwarts School menerapkan pembelajaran yang terhubung langsung dengan dunia sihir kreatif
-                        dan
-                        tongkat sihir. Melalui pendekatan proyek dan teaching factory, siswa belajar secara
-                        kontekstual
-                        dan berorientasi pada kebutuhan sihir masa depan.
+                        SMK Genesis Teknologi memberikan sertifikasi kompetensi yang sesuai dengan standar dunia
+                        industri dan kerja. Melalui pelatihan, praktik, serta uji kompetensi, siswa memperoleh pengakuan
+                        atas keterampilan yang dimiliki dan siap menghadapi kebutuhan industri masa depan.
                     </div>
                 </div>
             </div>
@@ -89,28 +88,30 @@
                 <h4>Sambutan</h4>
             </div>
             <div class="container-desc">
-                <p>Assalamualaikum wr wb. Salam sehat untuk kita semua. Selamat datang kami ucapkan kepada para
-                    pengunjung yang senantiasa berada dalam lindungan Allah S.W.T di situs Hogwarts School.
+                <p>
+                    Assalamualaikum wr wb. Salam sejahtera untuk kita semua. Selamat datang kami ucapkan kepada para
+                    pengunjung yang telah mengunjungi website resmi SMK Genesis Teknologi.
                     <br>
                     <br>
-                    Di situs Hogwarts School ini kami berusaha untuk dapat memberikan informasi-informasi yang
-                    dibutuhkan, yaitu untuk siswa, guru, orang tua, maupun masyarakat. Terutama informasi yang
-                    berhubungan dengan pendidikan, ilmu pengetahuan dan informasi tentang Hogwart School
+                    Di website SMK Genesis Teknologi ini kami berusaha memberikan informasi yang dibutuhkan oleh siswa,
+                    guru, orang tua, maupun masyarakat. Terutama informasi yang berkaitan dengan pendidikan, kegiatan
+                    sekolah, serta perkembangan SMK Genesis Teknologi.
                     <br>
                     <br>
-                    Dalam melaksanakan proses pendidikan disekolah, kami selalu berusaha untuk dapat menyesuaikan dan
-                    mengikuti perkembangan teknologi, yaitu teknologi informasi menuju revolusi industry 4.0
+                    Dalam melaksanakan proses pendidikan di sekolah, kami selalu berupaya mengikuti perkembangan
+                    teknologi serta kebutuhan dunia industri agar peserta didik memiliki kompetensi yang siap
+                    diterapkan.
                     <br>
                     <br>
-                    Dengan adanya media layanan informasi ini, kami harapkan dapat menambah wawasan, serta dapat
-                    mempercepat dalam memberikan informasi-informasi yang dibutuhkan.
+                    Dengan adanya media informasi ini, kami berharap dapat menambah wawasan serta memudahkan dalam
+                    menyampaikan berbagai informasi yang dibutuhkan oleh seluruh masyarakat.
                     <br>
                     <br>
-                    Terimakasih kami ucapkan kepada pengunjung situs ini, semoga dapat memberikan manfaat yang sangat
-                    besar dan dapat berkunjung kembali
+                    Terima kasih kepada para pengunjung website ini. Semoga informasi yang kami sajikan bermanfaat dan
+                    kami berharap Anda dapat berkunjung kembali.
                     <br>
                     <br>
-                    Wassalamualaikum wr wb
+                    Wassalamualaikum wr wb.
                 </p>
             </div>
             <div class="container-footer">
@@ -201,32 +202,36 @@
 
         <div class="berita-container">
             <div class="berita-card">
-                <img src="./images/trdbg.jpg" alt="Rumah Kaca Hogwarts">
-                <h3>Rumah Kaca Hogwarts</h3>
-                <span>Suasana di dalam rumah kaca terasa sangat hidup dan detail. Cahaya matahari masuk melalui atap
-                    kaca yang berbentuk melengkung dengan rangka kayu yang kokoh. Di langit-langit, tergantung
-                    lampu-lampu gantung besar berbentuk unik yang memberikan kesan magis dan antik. Dinding di bagian
-                    belakang dipenuhi oleh tanaman merambat...</span>
-                <a href="#" class="selengkapnya">Selengkapnya</a>
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600"
+                    alt="Siswa RPL" class="card-img">
+                <h3>Siswa RPL SMK Genesis Teknologi Siap Hadapi UKK Mandiri</h3>
+                <span>Para siswa/i kelas XII program keahlian Rekayasa Perangkat Lunak (RPL) tengah mematangkan
+                    persiapan menjelang Uji Kompetensi Keahlian (UKK) pada pembuatan aplikasi web e-commerce dan
+                    sistem informasi manajemen sekolah menggunakan PHP dan CSS untuk menguji
+                    kesiapan kerja mereka di industri</span>
+                <a href="/project-webprogramming/pages/berita.php" class="selengkapnya">Selengkapnya</a>
             </div>
 
             <div class="berita-card">
-                <img src="./images/trdbg.jpg" alt="Piala Triwizard">
-                <h3>Piala Triwizard</h3>
-                <span>Piala ini diletakkan dengan latar belakang yang gelap dan megah, kemungkinan besar di dalam Aula
-                    Besar (Great Hall) Hogwarts dengan jendela-jendela tinggi berwarna biru redup di kejauhan,
-                    memberikan atmosfer yang serius dan penuh misteri.</span>
-                <a href="#" class="selengkapnya">Selengkapnya</a>
+                <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&q=80&w=600"
+                    alt="PPDB Online" class="card-img">
+                <h3>PPDB TA 2026/2027 Gelombang 1 Resmi Dibuka!</h3>
+                <span>SMK Genesis Teknologi resmi membuka Pendaftaran Peserta Didik Baru (PPDB) untuk Tahun Ajaran
+                    2026/2027. Tersedia kuota program keahlian unggulan seperti RPL, TKJ dan TEI. Pendaftaran
+                    dapat dilakukan secara online melalui portal resmi atau langsung ke sekretariat PPDB
+                    sekolah.</span>
+                <a href="/project-webprogramming/pages/profile/visi-misi.php" class="selengkapnya">Selengkapnya</a>
             </div>
 
             <div class="berita-card">
-                <img src="./images/trdbg.jpg" alt="Keagungan Perpustakaan">
-                <h3>Keagungan Perpustakaan Hogwarts</h3>
-                <span>Struktur ruangan ini didominasi oleh kayu ek tua berwarna gelap yang memberikan kesan kokoh dan
-                    berwibawa. Rak-rak buku raksasa berjajar secara simetris, membentang dari lantai hingga ke
-                    langit-langit yang tak terjangkau pandangan mata. Pilar-pilar penyangga yang berbentuk spiral
-                    (berulir) dengan ukiran emas di bagian puncaknya menambah sentuhan...</span>
-                <a href="#" class="selengkapnya">Selengkapnya</a>
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600"
+                    alt="Siswa Prakerin" class="card-img">
+                <h3>Pelepasan Siswa Prakerin Angkatan 2026 ke Perusahaan Mitra</h3>
+                <span>Sebanyak 120 siswa SMK Genesis Teknologi resmi dilepas untuk mengikuti program Praktik Kerja
+                    Industri (Prakerin) atau PKL selama 6 bulan kedepan. Para siswa disebar ke berbagai
+                    perusahaan IT dan startup rekanan di wilayah Jabodetabek guna menyelaraskan kompetensi
+                    sekolah dengan kebutuhan nyata dunia industri..</span>
+                <a href="/project-webprogramming/pages/profile/visi-misi.php" class="selengkapnya">Selengkapnya</a>
             </div>
         </div>
     </section>

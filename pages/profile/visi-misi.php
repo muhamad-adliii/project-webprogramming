@@ -13,13 +13,12 @@
 </head>
 
 <body>
-    <?php include '../../components/navbar.php'; ?>
-
     <section class="hero-section">
-        <!-- <div class="hero-content">
+        <?php include '../../components/navbar.php'; ?>
+        <div class="hero-content">
             <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
             <h1>VISI & MISI SEKOLAH</h1>
-        </div> -->
+        </div>
     </section>
 
     <main class="profile-container">

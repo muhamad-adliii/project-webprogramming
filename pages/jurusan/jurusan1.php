@@ -13,11 +13,12 @@
 </head>
 
 <body>
-    <?php
-    include '../../components/navbar.php';
-    ?>
-    <!-- HERO -->
-    <section class="hero" style="background-image: url('../../images/secondschool.jpeg');">
+    <section class="hero-section">
+        <?php include '../../components/navbar.php'; ?>
+        <div class="hero-content">
+            <div class="profile-subtitle-hero">SMK Genesis Teknologi</div>
+            <h1>JURUSAN REKAYASA PERANGKAT LUNAK</h1>
+        </div>
     </section>
 
     <!-- CONTENT -->
@@ -29,34 +30,25 @@
         </div>
         <h1>Rekayasa Perangkat Lunak</h1>
         <div class="wrapper">
-
             <!-- LOGO -->
             <div class="logo-box">
-
                 <img src="../../images/logo-rpl.png" alt="RPL">
-
             </div>
 
             <!-- TEXT -->
             <div class="text-box">
-
                 <img class="banner" src="../../images/secondschool.jpeg" alt="RPL">
-
                 <p>
                     Rekayasa Perangkat Lunak (RPL) adalah jurusan yang mengajarkan siswa tentang pemrograman, pembuatan
                     aplikasi, pengembangan software, dan sistem informasi. Jurusan ini menyiapkan siswa untuk karier di
                     bidang teknologi informasi, khususnya sebagai developer atau programmer.
                 </p>
-
                 <p>
                     Banyak siswa hebat berasal dari jurusan ini. Siswa Rekayasa Perangkat Lunak dikenal memiliki tekad
                     kuat dan selalu berusaha mencapai tujuan mereka dengan penuh keyakinan.
                 </p>
-
             </div>
-
         </div>
-
     </section>
     <?php
     include '../../components/footer.php';
