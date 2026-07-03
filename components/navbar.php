@@ -18,13 +18,13 @@
         </div>
         <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
         <label for="menu-toggle" class="hamburger-trigger">
-            <div class="menu">
+            <!-- <div class="menu"> -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-list"
                     viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
-            </div>
+            <!-- </div> -->
         </label>
         <ul>
             <li><a href="/project-webprogramming/index.php">Beranda</a></li>

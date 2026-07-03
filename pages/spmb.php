@@ -89,7 +89,8 @@
 
                     <div>
                         <label>No Handphone <span>*</span></label>
-                        <input type="number" name="hp" maxlength="15" required>
+                        <input type="number" name="hp"
+                            oninput="if(this.value.length > 15) this.value = this.value.slice(0,15)" required>
                     </div>
 
                     <div>

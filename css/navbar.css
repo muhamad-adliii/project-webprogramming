@@ -191,19 +191,21 @@ nav ul li a {
   z-index: 10000;
 }
 
-.menu {
+/* .menu {
   color: var(--color-font, #fff);
   display: flex;
   align-items: center;
   transition: transform 0.3s ease;
-}
+} */
 
 @media (max-width: 768px) {
   nav ul li a {
     display: flex !important;
-    gap: 30;
+    gap: 30px;
   }
   nav > ul {
+    display:flex;
+        align-items:flex-start;
     position: absolute;
     top: 100%;
     left: 0;

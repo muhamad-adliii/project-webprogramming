@@ -1,10 +1,10 @@
 .hero-section {
+  position: relative;
   height: 70vh;
   background-image: url("../images/secondschool.jpeg");
   background-size: cover;
   background-position: center;
-  background-position: center;
-  /* position: relative; */
+  overflow: hidden;
 }
 
 .hero-section::before {
@@ -13,18 +13,20 @@
   position: absolute;
   height: 70vh;
   background: rgba(0, 0, 0, 0.5);
-  /* z-index: 2; */
+  z-index: 1;
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 140px;
-  z-index: 3;
-  /* margin: auto; */
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    text-align: center;
 }
 
 .hero-content h1 {
@@ -153,6 +155,17 @@
   word-break: break-all;
 }
 
+.info-card p a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.info-card p a:hover {
+    color: #777; /* atau warna tema website */
+    text-decoration: underline;
+}
+
 /* Map Kanan */
 .contact-map iframe {
   width: 100%;
@@ -175,18 +188,6 @@
   .info-row {
     grid-template-columns: 1fr;
   }
-  .hero-content {
-    /* margin-top: 100px; */
-    z-index: -2;
-  }
-
-  .profile-subtitle-hero {
-    z-index: 0;
-    font-size: 0.9rem;
-  }
-
-  .hero-content h1 {
-    z-index: 0;
-    font-size: 1.8rem;
-  }
+  
 }
+

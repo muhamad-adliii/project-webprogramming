@@ -14,8 +14,8 @@
         <div class="footer-information">
             <h4>SMK Genensis Teknologi</h4>
             <p>Leavesden, Watford WD25 7LR, Inggris Raya</p>
-            <p>Phone : 085133059287</p>
-            <p>Email : 10250087@bsi.ac.id</p>
+            <p><a href="https://wa.me/085133059287" target="_blank">Phone : 085133059287</a></p>
+            <p><a href="mailto:10250087@bsi.ac.id">Email : 10250087@bsi.ac.id</a></p>
 
             <div class="inf-media">
                 <a href="https://www.facebook.com/">
