@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="shortcut icon" href="./images/logo-sekolah2.0.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -17,7 +17,7 @@
 <body>
     <section class="hero">
         <?php
-        include '../components/navbar.php';
+        include __DIR__ . '../components/navbar.php';
         ?>
         <div class="hero-card">
             <div class="card-card">
@@ -236,7 +236,7 @@
         </div>
     </section>
     <?php
-    include "../components/footer.php"
+    include __DIR__ . "../components/footer.php"
         ?>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
