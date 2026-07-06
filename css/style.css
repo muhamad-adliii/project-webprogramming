@@ -1,24 +1,31 @@
 .hero {
-  background-image: url("../images/mainschool.jpeg");
   width: 100%;
-  height: 70vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 80px;
+  /* height: 70vh; */
 }
 
 .hero::before {
   content: "";
   inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   position: absolute;
   height: 70vh;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/mainschool.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* z-index: 2; */
 }
 
 .hero-card {
   display: grid;
-  /* Kunci utama responsif: minimal lebar card 300px, jika layar lebih kecil akan otomatis turun */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 0;
   margin-top: 250px;
@@ -64,7 +71,7 @@
 
 /* sambutan */
 .sambutan {
-  margin-top: 350px;
+  margin-top: 60 px;
   display: flex;
   padding: 0 5em;
 }
@@ -139,6 +146,7 @@
   align-items: center;
   text-transform: capitalize;
   font-weight: 600;
+  text-align: center;
 }
 
 .inf-card svg {
@@ -329,10 +337,33 @@
   opacity: 1;
 }
 
+.btn-berita {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-berita a {
+  padding: 20px 40px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 40px;
+  background-color: #bd2a33;
+}
+
+.btn-berita a:hover {
+  background-color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
   .hero-card {
     padding: 0 1.5em;
-    margin-top: 300px;
+    margin-top: 200px;
   }
 
   .card-card {
@@ -340,10 +371,14 @@
     padding: 20px;
   }
 
+  .inf-card {
+    text-align: center;
+  }
+
   .sambutan {
     flex-direction: column;
     padding: 0 1.5em;
-    margin-top: 1100px;
+    margin-top: 60px;
     gap: 2rem;
   }
 

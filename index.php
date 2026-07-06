@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="shortcut icon" href="../images/logo-sekolah2.0.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="./images/logo-sekolah2.0.png" type="image/x-icon">
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -17,7 +17,7 @@
 <body>
     <section class="hero">
         <?php
-        include __DIR__ . '../components/navbar.php';
+        include 'components/navbar.php';
         ?>
         <div class="hero-card">
             <div class="card-card">
@@ -72,11 +72,12 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <section class="sambutan" data-aos="fade-up" data-aos-duration="1500" data-delay="100">
         <div class="sambutan-img">
-            <img src="../images/bapa-removebg-preview.png" alt="">
+            <img src="images/bapa-removebg-preview.png" alt="">
         </div>
         <div class="sambutan-desc">
             <div class="subtitle-container">
@@ -167,7 +168,7 @@
         <div class="keahlian-container">
             <div class="keahlian-card">
                 <div class="keahlian-logo">
-                    <img src="../images/logo-rpl.png" alt="Rekayasa Perangkat Lunak">
+                    <img src="images/logo-rpl.png" alt="Rekayasa Perangkat Lunak">
                 </div>
                 <h4>Rekayasa Perangkat Lunak</h4>
                 <p>Rekayasa Perangkat Lunak atau biasa disingkat dengan RPL adalah salah satu bidang profesi dan juga
@@ -176,7 +177,7 @@
             </div>
             <div class="keahlian-card">
                 <div class="keahlian-logo">
-                    <img src="../images/logo-tkj.png" alt="Teknik Komputer dan Jaringan">
+                    <img src="images/logo-tkj.png" alt="Teknik Komputer dan Jaringan">
                 </div>
                 <h4>Teknik Komputer dan Jaringan</h4>
                 <p>Teknik Komputer dan Jaringan merupakan ilmu berbasis Teknologi Informasi dan Komunikasi terkait
@@ -185,7 +186,7 @@
             </div>
             <div class="keahlian-card">
                 <div class="keahlian-logo">
-                    <img src="../images/logo-tei.png" alt="Teknik Elektronika Industri">
+                    <img src="images/logo-tei.png" alt="Teknik Elektronika Industri">
                 </div>
                 <h4>Teknik Elektronika Industri</h4>
                 <p>Teknik Elektronika Industri merupakan kompetensi keahlian tingkat SMK yang berfokus pada peralatan
@@ -209,9 +210,7 @@
                     persiapan menjelang Uji Kompetensi Keahlian (UKK) pada pembuatan aplikasi web e-commerce dan
                     sistem informasi manajemen sekolah menggunakan PHP dan CSS untuk menguji
                     kesiapan kerja mereka di industri</span>
-                <a href="/project-webprogramming/pages/berita.php" class="selengkapnya">Selengkapnya</a>
             </div>
-
             <div class="berita-card">
                 <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&q=80&w=600"
                     alt="PPDB Online" class="card-img">
@@ -220,9 +219,7 @@
                     2026/2027. Tersedia kuota program keahlian unggulan seperti RPL, TKJ dan TEI. Pendaftaran
                     dapat dilakukan secara online melalui portal resmi atau langsung ke sekretariat PPDB
                     sekolah.</span>
-                <a href="/project-webprogramming/pages/profile/visi-misi.php" class="selengkapnya">Selengkapnya</a>
             </div>
-
             <div class="berita-card">
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600"
                     alt="Siswa Prakerin" class="card-img">
@@ -231,12 +228,16 @@
                     Industri (Prakerin) atau PKL selama 6 bulan kedepan. Para siswa disebar ke berbagai
                     perusahaan IT dan startup rekanan di wilayah Jabodetabek guna menyelaraskan kompetensi
                     sekolah dengan kebutuhan nyata dunia industri..</span>
-                <a href="/project-webprogramming/pages/profile/visi-misi.php" class="selengkapnya">Selengkapnya</a>
             </div>
+        </div>
+        <div class="btn-berita">
+            <a href="/project-webprogramming/pages/berita.php">
+                lihat semua berita
+            </a>
         </div>
     </section>
     <?php
-    include __DIR__ . "../components/footer.php"
+    include "components/footer.php"
         ?>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
